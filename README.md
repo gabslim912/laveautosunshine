@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
@@ -145,3 +146,6 @@ To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+=======
+# koongroup
+>>>>>>> abd1d3f618479af14813151bb2b7af64dfda6e3a
