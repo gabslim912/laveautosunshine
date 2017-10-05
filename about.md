@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-layout: page
+layout: about
 ---
 
 <p class="text-justify">Le groupe Koon est une firme d’ingénierie spécialisée en électromécanique, bâtiments et travaux publics,ouvrages métalliques,froid et climatisation,infographie et informatique. </p>

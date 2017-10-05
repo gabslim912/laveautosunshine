@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  sliders:
+    title: sliders
+    output: true
 email: contact@koon-group.com
 description: "<p class=\"text-justify\">Le groupe Koon est une firme d’ingénierie
   spécialisée en électromécanique, bâtiments et travaux publics,ouvrages métalliques,froid
@@ -31,3 +34,4 @@ text: Le groupe KOON regroupe des professionnels et ingénieurs d'expérience ay
   tout en respectant budgets et échéanciers.
 tel: "+221 77 359 13 44"
 adresse: Villa 117 Y, Hann Maristes 2 Dakar, Sénégal
+image: "/uploads/paralax.jpg"
