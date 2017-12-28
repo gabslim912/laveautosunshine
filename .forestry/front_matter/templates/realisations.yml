@@ -1,4 +1,6 @@
 ---
+pages:
+- _realisations/climatisation-centre-commercial.md
 hide_body: false
 fields:
 - type: datetime
