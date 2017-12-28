@@ -5,6 +5,7 @@ mini_desc: Notre métier est de concevoir, fabriquer et installer des chambres f
   et des entrepôts frigorifiques. Notre objectif est d´offrir la technologie et la
   qualité avec un service personnalisé à nos clients.
 image: "/uploads/froid1.jpg"
+layout: service
 ---
 
 Notre métier est de concevoir, fabriquer et installer des chambres froides et des entrepôts frigorifiques. Notre objectif est d´offrir la technologie et la qualité avec un service personnalisé à nos clients. Nous adaptons les projets à leurs besoins actuels et futurs, et nous proposons des solutions intégrées et flexibles avec des coûts compétitifs.
