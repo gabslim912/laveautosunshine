@@ -9,7 +9,7 @@ fields:
 - name: date
   label: Date
   type: datetime
-  hidden: false
+  hidden: true
   default: ''
   config:
     required: false
