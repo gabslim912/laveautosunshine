@@ -22,9 +22,18 @@ fields:
   name: services
   config:
     source:
-      type: pages
+      type: simple
       section: services
     required: true
+    options:
+    - froid & climatisation
+    - electricite
+    - ouvrage metallique
+    - mecanique
+    - infographie
+    - informatique
+    - batiment & travaux publics
+    - formation
   label: services
   description: Sélectionnez le service correspondant
-  default: _services/froid-and-climatisation.markdown
+  default: ''
