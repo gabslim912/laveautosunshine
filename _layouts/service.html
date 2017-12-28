@@ -107,13 +107,14 @@
                 <img src="{{ realisation.image }}" alt="">
                 <div class="overlay-top">
                   <div class="text">
-                    <h3><a href="portfolio-item.html">{{ realisation.title }}</a></h3>
-                    <p class="small">{{ realisation.services }}</p>
+                    <h3 class="page-title">{{ realisation.title }}</h3>
+                   <!-- <p class="small">{{ realisation.date }}</p> -->
+                    <p class="page-title">{{ realisation.client }}</p>
                   </div>
                 </div>
                 <div class="overlay-bottom">
                   <div class="links">
-                    <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
+                    <a href="/contact" class="btn btn-gray-transparent btn-animated btn-sm" target="blank">Contacter <i class="pl-10 fa fa-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -123,7 +124,7 @@
         </div>
       </section>
       <!-- section end -->
-
+      <br><br><br>
     
 
     {% include footer.html %}
