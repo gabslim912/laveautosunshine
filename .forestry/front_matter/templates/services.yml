@@ -11,6 +11,8 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    required: true
 - name: layout
   label: Layout
   type: text
@@ -21,8 +23,20 @@ fields:
   type: textarea
   hidden: false
   default: ''
-- name: image
+  config:
+    required: true
+- type: textarea
+  name: activities
+  label: Activités
+  config:
+    required: true
+  description: Listes des activités comprises
+- type: file
+  name: image
   label: Image
-  type: text
   hidden: false
-  default: ''
+  description: Image principale
+- type: file
+  name: logo
+  label: Logo
+  description: Seconde image
