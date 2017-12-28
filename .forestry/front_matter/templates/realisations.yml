@@ -36,4 +36,21 @@ fields:
     - formation
   label: services
   description: Sélectionnez le service correspondant
-  default: ''
+  default: froid & climatisation
+- type: select
+  name: filtre
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - froid_climatisation
+    - electricite
+    - ouvrage_metallique
+    - batiment_travaux
+    - mecanique
+    - infographie
+    - informatique
+    - formation
+  label: filtre
+  description: filter for homepage section
