@@ -14,6 +14,9 @@ collections:
   sliders:
     title: sliders
     output: true
+  realisations:
+    title: realisations
+    output: true
 email: contact@koon-group.com
 description: "<p class=\"text-justify\">Le groupe Koon est une firme d’ingénierie
   spécialisée en électromécanique, bâtiments et travaux publics,ouvrages métalliques,froid
