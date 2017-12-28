@@ -12,7 +12,7 @@ fields:
   hidden: false
   default: ''
   config:
-    required: true
+    required: false
 - name: layout
   label: Layout
   type: text
