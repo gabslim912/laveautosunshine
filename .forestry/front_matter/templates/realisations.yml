@@ -1,0 +1,27 @@
+---
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+  description: Date de realisation
+  config:
+    date_format: DD/MM/YYYY
+    required: true
+- type: file
+  name: image
+  label: image
+  description: Image principale (si il y a une seule image)
+- type: text
+  name: client
+  label: client
+- type: select
+  name: services
+  config:
+    source:
+      type: pages
+      section: services
+    required: true
+  label: services
+  description: Sélectionnez le service correspondant
+  default: ouvrages-metalliques.markdown
