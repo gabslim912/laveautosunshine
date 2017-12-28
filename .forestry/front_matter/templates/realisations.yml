@@ -24,4 +24,4 @@ fields:
     required: true
   label: services
   description: Sélectionnez le service correspondant
-  default: ouvrages-metalliques.markdown
+  default: _services/froid-and-climatisation.markdown
