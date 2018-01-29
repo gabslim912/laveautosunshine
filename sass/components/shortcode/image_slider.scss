@@ -1,0 +1,351 @@
+//Overide slick slide
+.slick-slide {
+    &:focus {
+        outline: 0;
+    }
+}
+
+.vk-slider {
+    img {
+        @include transition(0.3s);
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .vk-arrow {
+        background-color: transparent;
+        border: 1px solid $grey-2;
+        color: $grey-2;
+        padding: 42px 14px;
+        position: absolute;
+        top: 28%;
+        z-index: 1;
+        &.next {
+            right: -70px;
+        }
+        &.prev {
+            left: -70px;
+        }
+        &:hover{
+            color: $yellow-1;
+            border-color: $yellow-1;
+        }
+    }
+    .vk-img-frame {
+        margin: 20px 0;
+        @media(min-width: 992px) {
+            margin: 35px 0;
+        }
+    }
+    .content {
+        opacity: 0;
+        text-align: center;
+        @include transition(0.3s);
+        .title {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: $yellow-1;
+        }
+        .position {
+            text-transform: capitalize;
+            position: relative;
+            &:before {
+                content: '';
+                width: 40px;
+                height: 1px;
+                margin: 11px auto;
+                background-color: $grey-2;
+                display: block;
+            }
+        }
+    }
+    .item {
+        @include transition(0.3s);
+        &:hover {
+            .content {
+                opacity: 1;
+            }
+        }
+
+    }
+
+    &-center {
+        .vk-img-frame {
+            @media (min-width: 992px) {
+                margin-bottom: 60px;
+            }
+            overflow: visible;
+        }
+        .item {
+            padding: 0;
+            @media(min-width: 992px) {
+                padding:0 15px;
+            }
+            img {
+                @include transform(scale(1));
+                padding: 20px;
+                @media(min-width: 992px) {
+                    padding: 0;
+                }
+            }
+
+            ~ .item {
+                @media (min-width: 992px) {
+                    @include transform(translate(-35px));
+                }
+            }
+            &:hover {
+                .vk-img-frame{
+                    margin-bottom: 20px;
+                }
+            }
+            &.slick-slide {
+                &.slick-center {
+                    @include transform(translate(0));
+                    img {
+                        padding:0;
+                        @media (min-width: 992px) {
+                            @include transform(scale(1.241));
+                        }
+                    }
+                    .vk-img-frame{
+                        margin-bottom: 60px;
+                    }
+                    .content {
+                        opacity: 1;
+                    }
+
+                    + .item {
+                        @media (min-width: 992px) {
+                            @include transform(translate(35px));
+                        }
+                        + .item {
+                            @media (min-width: 992px) {
+                                @include transform(translate(35px));
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    &-circle {
+        .vk-img-frame {
+            @include border-radius(50%);
+            &:hover{
+                //@include transform(scale(1.1))
+            }
+        }
+
+    }
+}
+
+.vk-slider-arrow-top{
+    .vk-arrow{
+        @include size(40px);
+        padding:0;
+        background-color: transparent;
+        border:1px solid $grey-4;
+        color:$grey-1;
+        position:absolute;
+        z-index: 1;
+        top:-105px;
+
+        min-height:0;
+        @include transition(0.3s);
+        &.prev{
+            left: auto;
+            right:65px;
+        }
+        &.next{
+            right:15px;
+        }
+        &:hover,&:focus{
+            border-color:$yellow-1;
+            color:$yellow-1;
+        }
+    }
+}
+.vk-slider-arrow-dot-top{
+    padding-top:30px;
+    @media (min-width:$tablet_landscape_width){
+        padding-top:0px;
+    }
+    .vk-arrow-dots{
+        margin:0;
+        padding:0;
+        list-style: none;
+        width:100%;
+        position:absolute;
+        top:0;
+        left:15px;
+        right:15px;
+        margin:auto;
+        @media (min-width:400px){
+            width:370px;
+        }
+        @media (min-width:$tablet_landscape_width){
+            width:460px;
+            top:-85px;
+            margin-right:285px;
+            display: none !important;
+        }
+        @media (min-width:$pc_width){
+            display: block !important;
+        }
+        li{
+            float:left;
+            height: 20px;
+            padding: 0px 2px;
+            cursor: pointer;
+            &:after{
+                content:'';
+                height: 1px;
+                background-color: $grey-4;
+                display: block;
+                margin-top: 9px;
+            }
+            &.slick-active{
+                &:after{
+                    background-color: $yellow-1;
+                }
+            }
+            button{
+                display: none;
+            }
+        }
+    }
+}
+.vk-slider-arrow-image{
+    .vk-arrow{
+        @include size(80px);
+        font-size:30px;
+        padding:0;
+        background-color: rgba(0, 0, 0, 0.5);
+        border:none;
+        color:$grey-1;
+        position:absolute;
+        z-index: 1;
+        top:50%;
+        min-height:0;
+        overflow: visible;
+        @include transition(0.3s);
+        .image-preview-thumbnail{
+            height: 80px;
+            width: 0px;
+            display: block;
+            position: absolute;
+            top: 0;
+            background-size: cover;
+            @include transition(0.3s);
+        }
+
+        &.prev{
+            left:60px;
+            .image-preview-thumbnail{
+                left:100%;
+            }
+        }
+        &.next{
+            right:60px;
+            .image-preview-thumbnail{
+                right:100%;
+            }
+        }
+        .icon{
+            position:relative;
+            top:3px;
+        }
+
+        &:hover,&:focus{
+            color:$white;
+            background-color: $yellow-1;
+            .image-preview-thumbnail{
+                width: 160px;
+            }
+        }
+    }
+    .vk-dots-nav{
+        position:absolute;
+        bottom:35px;
+        left:50%;
+        @include transform(translateX(-50%));
+        li{
+            float: left;
+            @include size(20px);
+            overflow: hidden;
+            position:relative;
+            cursor: pointer;
+            button{
+                display: none;
+            }
+            &:before{
+                content:'';
+                @include size(8px);
+                @include border-radius(50%);
+                background-color: $grey-1;
+                position:absolute;
+                top:5px;
+                left:5px;
+                @include transition(0.2s);
+                display: block;
+            }
+            &:after{
+                content:'';
+                @include size(14px);
+                @include border-radius(50%);
+                border:1px solid transparent;
+                position:absolute;
+                top:2px;
+                left:2px;
+                @include transition(0.2s);
+                display: block;
+            }
+            &.slick-active,&:hover{
+                &:after{
+                    border-color: $yellow-1;
+                }
+                &:before{
+                    background-color: $yellow-1;
+                }
+            }
+        }
+    }
+}
+
+.vk-image-slider-element{
+    .vk-space{
+        &.x-large{
+            padding-bottom:40px;
+            @media (min-width: 992px) {
+                padding-bottom:85px;
+            }
+        }
+    }
+    .list-item{
+        padding-bottom: 60px;
+        @media (min-width: 992px) {
+            padding-bottom:120px;
+        }
+    }
+}
+.vk-image-slider-style-2{
+    .vk-heading{
+        color:#fff;
+    }
+}
+.vk-image-slider-style-1{
+    .vk-space{
+        &.x-large{
+            @media (min-width: 992px) {
+                padding-bottom:120px;
+            }
+        }
+    }
+}

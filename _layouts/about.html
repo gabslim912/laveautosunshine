@@ -9,25 +9,27 @@
   <!-- "transparent-header": makes the header transparent and pulls the banner to top -->
   <!-- "gradient-background-header": applies gradient background to header -->
   <!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
-  <body class="no-trans front-page">
+  <body>
+<div class="main-wrapper">
 
-    <!-- scrollToTop -->
-    <!-- ================ -->
-    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
-    
-    <!-- page wrapper start -->
-    <!-- ================ -->
-    <div class="page-wrapper">
-
-    {% include header.html %} 
+    {% include header1.html %}
+    <!--./vk-header-->
+    <!--./vk-header-->
 
     
-    {% include page_about.html %}
+            
 
-    
+
+            {% include page_about.html %}
+            <!--./vk-what-we-do-section-->
+            {% include home_ourteam.html %}
+
+            {% include home_contact.html %}
+            <!--./vk-join-our-team-->
+            {% include home_testimonial.html %}
+            
+       
 
     {% include footer.html %}
-
-  </body>
-
+</body>
 </html>

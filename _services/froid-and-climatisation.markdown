@@ -1,5 +1,5 @@
 ---
-title: froid & climatisation
+title: climatisation
 date: 2017-12-27 19:56:00 +0000
 mini_desc: Notre métier est de concevoir, fabriquer et installer des chambres froides
   et des entrepôts frigorifiques. Notre objectif est d´offrir la technologie et la

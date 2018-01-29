@@ -9,126 +9,15 @@
   <!-- "transparent-header": makes the header transparent and pulls the banner to top -->
   <!-- "gradient-background-header": applies gradient background to header -->
   <!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
-  <body class="no-trans front-page">
+  <body>
+<div class="main-wrapper">
 
-    <!-- scrollToTop -->
-    <!-- ================ -->
-    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
-    
-    <!-- page wrapper start -->
-    <!-- ================ -->
-    <div class="page-wrapper">
+    {% include header1.html %}
+    <!--./vk-header-->
+    <!--./vk-header-->
 
-    {% include header.html %} 
-
-    
-    <!-- banner start -->
-      <!-- ================ -->
-      <div class="banner dark-translucent-bg" style="background-image:url('{{ page.logo }}'); background-position: 50% 32%; background-size: contain;">
-        <!-- breadcrumb start -->
-        <!-- ================ -->
-        <div class="breadcrumb-container">
-          <div class="container">
-            <ol class="breadcrumb">
-              <li><i class="fa fa-home pr-10"></i><a class="link-dark" href="index.html">Acceuil</a></li>
-              <li class="active">{{ page.title }}</li>
-            </ol>
-          </div>
-        </div>
-        <!-- breadcrumb end -->
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 text-center col-md-offset-2 pv-20">
-              <h2 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">{{ page.title}} </h2>
-              <div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="100"></div>
-              <p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">{{ page.mini_desc }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- banner end -->
-
-      <div class="container">
-          <br>
-          <h2> </h2>
-          <br>
-        </div>
-
-        <!-- section start -->
-        <!-- ================ -->
-        <section class="full-width-section">
-          <div class="full-image-container light-gray-bg">
-            <img class="to-right-block" src="{{ page.image }}" alt="">
-            <div class="full-image-overlay text-right">
-              {{ page.activities }}
-            </div>
-          </div>
-          <div class="full-text-container light-gray-bg border-bottom-clear">
-            <h2>DESCRIPTION DU SERVICE</h2>
-            <div class="separator-2 visible-lg"></div>
-            <p>{{ page.content }}</p>
-            <div class="separator-3 visible-lg"></div>
-            <a href="/contact" class="btn btn-default btn-hvr hvr-sweep-to-left">Contactez-nous<i class="pl-5 icon-basket-1"></i></a>
-          </div>
-        </section>
-        <!-- section end -->
-        <!-- main-container start -->
-      <!-- ================ -->
-      <section class="main-container padding-bottom-clear">
-        <div class="container">
-          <!-- main start -->
-          <!-- ================ -->
-          <div class="main">
-
-            <!-- page-title start -->
-            <!-- ================ -->
-            <h1 class="page-title">NOS REALISATIONS - {{ page.title }}</h1>
-            <div class="separator-2"></div>
-            <!-- page-title end -->
-            
-
-          </div>
-          <!-- main end -->
-        </div>
-      </section>
-      <!-- main-container end -->
-      <!-- section start -->
-      <!-- ================ -->
-      <section>
-        <div class="container">
-         
-        </div>
-        <div class="isotope-container row grid-space-0">
-          {% assign realisations = site.realisations | where:"services", page.title  %}
-          {% for realisation in realisations %}
-          <div class="col-sm-6 isotope-item">
-            <div class="image-box text-center">
-              <div class="overlay-container">
-                <img src="{{ realisation.image }}" alt="">
-                <div class="overlay-top">
-                  <div class="text">
-                    <h3 class="page-title">{{ realisation.title }}</h3>
-                   <!-- <p class="small">{{ realisation.date }}</p> -->
-                    <p class="page-title">{{ realisation.client }}</p>
-                  </div>
-                </div>
-                <div class="overlay-bottom">
-                  <div class="links">
-                    <a href="/contact" class="btn btn-gray-transparent btn-animated btn-sm" target="blank">Contacter <i class="pl-10 fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}  
-        </div>
-      </section>
-      <!-- section end -->
-      <br><br><br>
-    
+    {% include page_service.html %}
 
     {% include footer.html %}
-
-  </body>
-
+</body>
 </html>

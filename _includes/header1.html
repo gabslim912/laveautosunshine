@@ -1,0 +1,94 @@
+<header class="vk-header ">
+        <nav class="vk-navbar  navbar">
+            <div class="container">
+                <div class="vk-navbar-header navbar-header">
+                    <button type="button" class="navbar-toggle vk-navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                        <i class="toggle-icon"></i>
+                    </button>
+                    <!--./vk-navbar-toggle-->
+
+                   
+                    <!--./shopping-cart-->
+
+                    <a class="vk-navbar-brand navbar-brand" href="index.html">
+                        <svg version="1.1" id="wicon-logo-svg" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="290.037px" height="290.25px" viewBox="0 0 290.037 290.25"
+                             enable-background="new 0 0 290.037 290.25"
+                             xml:space="preserve">
+                            <polygon fill="#FFC000" points="170,60.25 50,60.25 0,60.25 0,110.25 0,290.25 50,290.25 50,110.25 170,110.25 "/>
+                            <polygon fill="#FFC000" points="60.038,120.25 60.038,240.25 60.038,290.25 110.038,290.25 290.037,290.25 290.037,240.25 110.038,240.25 110.038,120.25 "/>
+                            <polygon fill="#FFC000"
+                                     points="120.019,230 240.019,230 290.019,230 290.019,180 290.019,0 240.019,0 240.019,180 120.019,180 "/>
+                            <polygon fill="#FFC000"
+                                     points="229.98,170 229.98,50 229.98,0 179.98,0 -0.019,0 -0.019,50 179.98,50 179.98,170 "/>
+                        </svg>
+                        <span class="logo-text text-uppercase">LAVE AUTO</span>
+                    </a>
+                    <!--./vk-navbar-brand-->
+
+                    
+
+                </div>
+                <!--./vk-navbar-header-->
+
+                <div class="collapse navbar-collapse vk-navbar-collapse" id="menu">
+                    <ul class="vk-navbar-nav navbar-right">
+
+                        <li>
+                            <a href="/">Acceuil</a>                            
+                        </li>                       
+
+                        <li>
+                            <a href="#">services</a>
+                            <ul class="vk-navbar-nav child">
+                            	{% for service in site.services %}
+                                          <li ><a href="{{ service.url }}" target="blank"><i class="fa fa-angle-right"></i>{{ service.title }}</a></li>
+                                {% endfor %}
+                              
+
+                            </ul>
+                        </li>                        
+                       
+
+                        <li>
+                            <a href="/about">A propos de nous</a>
+                           
+                        </li>
+
+                        <li>
+                            <a href="/contact">contact</a>
+                        </li>
+
+                        
+
+                       
+                    </ul>
+                    <!--./vk-navbar-nav-->
+
+                   
+                    <!--./box-search-header-->
+
+                </div>
+                <!--./vk-navbar-collapse-->
+
+            </div>
+            <!--./container-->
+
+        </nav>
+        <!--./vk-navbar-->
+
+        <div class="vk-header-top hidden-xs hidden-sm">
+            <div class="container">
+                <div class="content">
+                    
+                    <ul class="quick-address">
+                        <li><i class="fa fa-map-marker pr-5 pl-10"></i> {{ site.adresse }}</li>
+                    	<li><i class="fa fa-phone pr-5 pl-10"></i> {{site.tel}}</li>
+                    	<li><i class="fa fa-envelope-o pr-5 pl-10"></i> {{site.email}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--./vk-header-top-->
+    </header>
