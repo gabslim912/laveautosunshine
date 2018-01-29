@@ -1,6 +1,6 @@
 ---
 title: Energie Solaire
-date: 2017-10-05 21:27:00 Z
+date: 2017-10-05 21:27:00 +0000
 image: "/uploads/solaire1.jpg"
 ---
 

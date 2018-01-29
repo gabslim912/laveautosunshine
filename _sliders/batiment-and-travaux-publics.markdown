@@ -1,6 +1,6 @@
 ---
 title: Batiment & Travaux publics
-date: 2017-10-05 21:04:00 Z
+date: 2017-10-05 21:04:00 +0000
 image: "/uploads/btp1.jpg"
 ---
 
