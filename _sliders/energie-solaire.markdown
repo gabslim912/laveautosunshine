@@ -1,7 +1,6 @@
 ---
-title: Energie Solaire
+title: Lavage interieur et exterieur
 date: 2017-10-05 21:27:00 +0000
-image: "/uploads/solaire1.jpg"
+image: "/uploads/2018/01/29/IMG_2438.jpg"
 ---
-
-Bilan énergétique, devis, installation de panneaux solaires  ect...installation de panneaux solaires, 
+Lavage interieur et exterieur, shampooing moteur 
