@@ -1,4 +1,6 @@
 ---
+pages:
+- _realisations/auto.md
 hide_body: false
 fields:
 - type: datetime
