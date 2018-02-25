@@ -2,7 +2,6 @@
 pages:
 - _services/vitres.md
 - _services/interieur-exterieur.md
-- _services/polissage.md
 hide_body: false
 fields:
 - name: title
