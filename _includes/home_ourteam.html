@@ -42,8 +42,8 @@
                     <div class="text-center vk-space medium">
                         <h2 class="vk-heading vk-heading-line vk-heading-line-center" style="padding:0px; margin:0px;">
                              <span>
-                                <span class="vk-text-color-yellow-1">NOTRE</span>
-                                EQUIPE
+                                <span class="vk-text-color-yellow-1">NOS</span>
+                                REALISATIONS
                             </span>
                         </h2>
                     </div>
@@ -53,53 +53,20 @@
                             <div class="row">
                                 <div class="row">
                                     <div class="vk-slider vk-slick-slider vk-slider-center" data-slick='{"slidesToShow": 3, "centerMode": true}'>
+                                    {% for realisation in site.realisations %}
                                         <div class="item col-md-3">
                                             <div class="vk-img-frame">
-                                                <a href="/images/slider/slider_person_1_300.jpg" class="vk-img" data-lightbox="image-slide-0">
-                                                    <img src="/images/slider/slider_person_1_300.jpg" alt="">
+                                                <a href="{{ realisation.image }}" class="vk-img" data-lightbox="image-slide-0">
+                                                    <img src="{{ realisation.image }}" alt="">
                                                 </a>
                                             </div>
                                             <ul class="content">
-                                                <li class="title">John Stone</li>
-                                                <li class="position">Team leader</li>
+                                                <li class="title">{{ realisation.title }}</li>
+                                                <li class="position">{{ realisation.services }}</li>
                                             </ul>
                                         </div>
 
-                                        <div class="item col-md-3">
-                                            <div class="vk-img-frame">
-                                                <a href="/images/slider/slider_person_2_300.jpg" class="vk-img" data-lightbox="image-slide-1">
-                                                    <img src="/images/slider/slider_person_2_300.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <ul class="content">
-                                                <li class="title">Terry</li>
-                                                <li class="position">Designer</li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="item col-md-3">
-                                            <div class="vk-img-frame">
-                                                <a href="/images/slider/slider_person_3_300.jpg" class="vk-img" data-lightbox="image-slide-2">
-                                                    <img src="/images/slider/slider_person_3_300.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <ul class="content">
-                                                <li class="title">John Smith</li>
-                                                <li class="position">Developer</li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="item col-md-3">
-                                            <div class="vk-img-frame">
-                                                <a href="/images/slider/slider_person_3_300.jpg" class="vk-img" data-lightbox="image-slide-3">
-                                                    <img src="/images/slider/slider_person_3_300.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <ul class="content">
-                                                <li class="title">John Smith</li>
-                                                <li class="position">Developer</li>
-                                            </ul>
-                                        </div>
+                                    {% endfor %}   
 
                                     </div>
                                     <!--./vk-slider-->

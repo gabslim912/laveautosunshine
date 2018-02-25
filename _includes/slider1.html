@@ -1,16 +1,18 @@
 <div class="vk-baner-slider vk-slider-arrow-image" style="height: 500px;">
-    {% for slider in site.sliders %}
-    <div class="vk-banner  vk-banner-mod " style="background-image: url({{ slider.image}});position: relative; height: 500px;">
+    {% for service in site.services %}
+    <div class="vk-banner  vk-banner-mod " style="background-image: url({{ service.image}});position: relative; height: 500px;">
         
         <div class="vk-background-overlay vk-background-black _70"></div>
         <div class="container wrapper">
             <div class="page-heading">
         <span class="vk-text title-main">
-        
-         <span data-animation="fadeIn" data-delay="1s">{{ slider.title}}</span>
+        <a href="{{ service.url}}" target="blank">
+            <span data-animation="fadeIn" data-delay="1s">{{ service.title}}</span>
+        </a>
+         
         </span>
 
-                <span class="vk-text title-sub" data-animation="fadeInUp" data-delay="1.3s"><span class="vk-text-color-yellow-1">{{ slider.content }}</span></span>
+                <span class="vk-text title-sub" data-animation="fadeInUp" data-delay="1.3s"><span class="vk-text-color-yellow-1">{{ service.mini_desc }}</span></span>
             </div>
         </div>
     </div>
