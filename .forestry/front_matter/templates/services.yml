@@ -1,5 +1,6 @@
 ---
 pages:
+- _services/s.md
 - _services/vitres.md
 - _services/interieur-exterieur.md
 hide_body: false
