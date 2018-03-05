@@ -64,7 +64,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   font-family: 'Montserrat';
-  color: #B0B0B0; }
+  color: #2E3841; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #2E3841;
@@ -811,7 +811,6 @@ a {
         font-size: 44px;
         top: auto;
         letter-spacing: 7px;
-        bottom: 110px;
         left: 0;
         padding: 15px; } }
   @media (min-width: 992px) {
