@@ -4119,7 +4119,7 @@ END: PRICING TABLE
     transition: all 0.3s ease-in-out; }
   @media (min-width: 992px) {
     .vk-navbar {
-      border-bottom: 1px solid #d7d7d7; } }
+       } }
   .vk-navbar-header {
     padding: 25px 0; }
     @media (min-width: 992px) {
@@ -4137,9 +4137,9 @@ END: PRICING TABLE
     @media (min-width: 992px) {
       .vk-navbar-brand {
         padding-left: 17px; } }
-    .vk-navbar-brand svg {
-      width: 37px;
-      height: 37px; }
+    .vk-navbar-brand img {
+      width: 50px;
+      height: 50px; }
   .vk-navbar-nav {
     margin: 0;
     padding: 0;
@@ -4304,6 +4304,9 @@ END: PRICING TABLE
   position: relative;
   z-index: 9; }
   .vk-header .logo-text {
+    white-space: normal;
+    width: 200px;
+    line-height: 25px;
     font-size: 24px;
     font-weight: 600;
     color: #2E3841;
@@ -4324,10 +4327,10 @@ END: PRICING TABLE
         background-color: #d7d7d7;
         position: absolute;
         bottom: 0;
-        left: 208px; }
+        left: 258px; }
         @media (min-width: 1200px) {
           .vk-header-top .content:after {
-            left: 207px; } }
+            left: 258px; } }
     .vk-header-top .quick-address {
       padding: 0;
       margin: 0;

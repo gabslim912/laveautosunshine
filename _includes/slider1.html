@@ -1,6 +1,6 @@
 <div class="vk-baner-slider vk-slider-arrow-image" style="height: 500px;">
     {% for service in site.services %}
-    <div class="vk-banner  vk-banner-mod " style="background-image: url({{ service.image}});position: relative; height: 500px;">
+    <div class="vk-banner  vk-banner-mod " style="background-image: url({{ service.image}}); background-repeat: no-repeat; position: relative; background-size: cover; height: 500px;">
         
         <div class="vk-background-overlay vk-background-black _70"></div>
         <div class="container wrapper">
@@ -10,7 +10,7 @@
             <span data-animation="fadeIn" data-delay="1s">{{ service.title}}</span>
         </a>
          
-        </span>
+        </span><br>
 
                 <span class="vk-text title-sub" data-animation="fadeInUp" data-delay="1.3s"><span class="vk-text-color-yellow-1">{{ service.mini_desc }}</span></span>
             </div>
