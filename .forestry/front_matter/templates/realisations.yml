@@ -16,9 +16,6 @@ fields:
   name: image
   label: image
   description: Image principale (si il y a une seule image)
-- type: text
-  name: client
-  label: client
 - type: select
   name: services
   config:
@@ -27,31 +24,14 @@ fields:
       section: services
     required: true
     options:
-    - froid & climatisation
-    - electricite
-    - ouvrage metallique
-    - mecanique
-    - infographie
-    - informatique
-    - batiment & travaux publics
-    - formation
+    - Lavage Intérieur / Extérieur
+    - Moto
+    - Phares
+    - Remise a neuf
+    - Services aux Entreprises
+    - Shampooing moteur/interieur
+    - Tapis - Valise
+    - Vitres
   label: services
   description: Sélectionnez le service correspondant
   default: froid & climatisation
-- type: select
-  name: filtre
-  config:
-    source:
-      type: simple
-    required: true
-    options:
-    - froid_climatisation
-    - electricite
-    - ouvrage_metallique
-    - batiment_travaux
-    - mecanique
-    - infographie
-    - informatique
-    - formation
-  label: filtre
-  description: filter for homepage section
