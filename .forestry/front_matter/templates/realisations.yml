@@ -1,9 +1,9 @@
 ---
 pages:
+- _realisations/04.md
 - _realisations/03.md
 - _realisations/02.md
 - _realisations/01.md
-- _realisations/auto.md
 hide_body: false
 fields:
 - type: datetime
