@@ -39,12 +39,12 @@
 
                         <div class="col-md-6 right-content">
                             <h2 class="vk-heading vk-heading-border vk-heading-border-left">
-                    <span>
-                     {{ page.title }}
-                    </span>
+                                <span>
+                                 {{ page.title }}
+                                </span>
                             </h2>
-                            <div class="content">
-                                <p>{{ page.content }}</p>
+                            <div class="" style="text-align: justify; font-size: 16px" >
+                                <p >{{ page.content }}</p>
                             </div>
                             
                         </div>
@@ -62,3 +62,47 @@
 
     </section>
     <!--./content-->
+     <!-- /.vk-image-slider-element -->
+<div class="vk-image-slider-style-1 list-item">
+    <div class="container">
+        <div class="text-center vk-space medium">
+            <h2 class="vk-heading vk-heading-line vk-heading-line-center" style="padding:0px; margin:0px;">
+                 <span>
+                    
+                    REALISATIONS
+                </span>
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                    <div class="row">
+                        <div class="vk-slider vk-slick-slider vk-slider-center" data-slick='{"slidesToShow": 3, "centerMode": true}'>
+                        {% for realisation in page.realisations %}
+                            <div class="item col-md-3">
+                                <div class="vk-img-frame">
+                                    <a href="{{ realisation.image }}" class="vk-img" data-lightbox="image-slide-0">
+                                        <img src="{{ realisation.image }}" alt="">
+                                    </a>
+                                </div>
+                                
+                            </div>
+
+                        {% endfor %}   
+
+                        </div>
+                        <!--./vk-slider-->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.col-md-10 col-md-offset-1 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.vk-image-slider-style-1 -->
+<!-- /.vk-our-project-section -->

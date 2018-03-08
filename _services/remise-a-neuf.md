@@ -9,20 +9,6 @@ activities: 'Forfait regroupant plusieurs services pour remettre votre véhicule
 image: "/uploads/2018/02/28/REMISE.jpg"
 logo: ''
 ---
-_Forfait regroupant plusieurs services pour remettre votre véhicule à l'état neuf comme a sa sortie du concessionnaire. Idéal pour les retours de location ou pour vendre votre véhicule.  (SUR RDV)•_	
+Forfait regroupant plusieurs services pour remettre votre véhicule à l'état neuf comme a sa sortie du concessionnaire. Idéal pour les retours de location ou pour vendre votre véhicule.  (SUR RDV)
 
-**_.Lavage d’auto extérieur à la main_** 
-
-**_•Nettoyage des roues pour déloger la poussière des freins  
-  
-•Nettoyage de la peinture afin d’enlever la graisse , la vieille cire et les dépôts de goudron.  
-  
-•Polissage de la  peinture  
-  
-•Lavage des tapis, des sièges et de la malle arrière  
-  
-•Nettoyage minutieux du tableau de bord et de toutes les composantes en vinyle  
-  
-•Lavage des vitres et des miroirs  
-  
-•Nettoyage à l’aspirateur complet du véhicule_** 
+<b>• Lavage d’auto extérieur à la main <br>• Nettoyage des roues pour déloger la poussière des freins <br>• Nettoyage de la peinture afin d’enlever la graisse, la vieille cire et les &nbsp;&nbsp;dépôts de goudron. <br>• Polissage de la  peinture  <br>• Lavage des tapis, des sièges et de la malle arrière <br>• Nettoyage minutieux du tableau de bord <br>• Nettoyage minutieux de toutes les composantes en vinyle <br>• Lavage des vitres et des miroirs <br>• Nettoyage à l’aspirateur complet du véhicule </b>

@@ -16,7 +16,7 @@
 
                     <li><a href="#">page</a></li>
 
-                    <li class="active">Contact</li>
+                    <li class="active">Reservation</li>
                 </ul>
             </nav>
         </div>
@@ -29,7 +29,7 @@
                 <div class="vk-contact">
                 <br>
                     <div class="row">
-                        <div class="col-md-12 left-content">
+                        <div class="col-md-9 left-content">
                             <h4 class="vk-heading text-uppercase">RESERVEZ DES MAINTENANT</h4>
                             <div class="vk-contact-form">
                                 <div class="user-info">
@@ -45,24 +45,36 @@
                                         <i class="fa fa-envelope"></i>
                                         <input type="email" name="email" placeholder="Email *" class="form-control">
                                     </div>
+                                    <label for="type_liste">Type du vehicule</label> 
                                     <div class="form-group">
                                         <i class="fa fa-pencil-square-o"></i>
-                                        <input type="text" name="subject" placeholder="Modèle du vehicule" class="form-control">
+                                        
+                                        <select name="type_vehicule" id="type_liste" class="form-control"> 
+                                        
+                                              <option>Berline</option>
+                                              <option>VAN/VUS</option>
+                                              <option>Pick-Up/Camion</option>
+                                              <option>Moto</option>
+                                              <option>Autres</option>
+                                         </select>
+                                        
                                     </div>
+                                    <label for="date">Date</label> 
                                     <div class="form-group">
                                         <i class="fa fa-calendar"></i>
-                                        <input type="date" name="date" placeholder="Date de reservation" class="form-control">
+                                        <input type="date" name="date" id="date" placeholder="Date de reservation" class="form-control">
                                     </div>
+                                    <label for="heure">Heure</label> 
                                     <div class="form-group">
                                         <i class="fa fa-clock-o"></i>
-                                        <input type="time" name="time" placeholder="heure de reservation" class="form-control">
+                                        <input type="time" name="time" id="heure" placeholder="heure de reservation" class="form-control">
                                     </div>
                                 </div>
                                 <!-- /.user-info -->
 
                                 <div class="message-content" >
                                     <div class="form-group">
-                                        <textarea name="content" style="height: 400px" placeholder="Veuillez décrire le service demandé" class="form-control"></textarea>
+                                        <textarea name="content" style="height: 475px" placeholder="Veuillez décrire le service demandé" class="form-control"></textarea>
                                     </div>
                                 </div>
                                 <!-- /.message-content -->
@@ -75,7 +87,39 @@
                             </div>
                         </div>
                         <!-- ./left-->
+                        <div class="col-md-3 right-content">
+                            <div class="contact-info">
+                                <h4 class="vk-heading text-uppercase">INFORMATIONS </h4>
+                                <ul class="vk-list vk-office">
+                                    <li><i class="fa fa-map-marker"></i>{{ site.adresse}}</li>
 
+                                    <li><i class="fa fa-envelope"></i><a href="mailto:email1@domain.com">{{ site.email }}</a></li>
+
+                                    <li><i class="fa fa-phone"></i>{{ site.tel }}</li>
+
+                                </ul>
+                                
+                                <!--./vk-office-->
+                            </div>
+                            <!-- /.contact-info -->
+
+                            <div class="business-hours">
+                                <h5 class="vk-heading text-uppercase">HEURES D'OUVERTURE </h5>
+                                <ul class="vk-list vk-office">
+                                    <li><i class="fa fa-calendar"></i>Lundi au Samedi</li>
+
+                                    <li><i class="fa fa-clock-o"></i>9h30 - 21h00</li>
+
+                                    <li><i class="fa fa-calendar"></i>Dimanche</li>
+
+                                    <li><i class="fa fa-clock-o"></i>9h30 - 18h00</li>
+
+                                </ul>
+                                <!--./vk-office-->
+                            </div>
+                            <!-- /.business-hours -->
+                        </div>
+                        <!-- ./right-->
                         
                     </div>
                     <!--./row-->

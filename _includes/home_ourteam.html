@@ -1,85 +1,46 @@
-<div class="vk-counter-section vk-counter-section-style-1 vk-parallax"  style="background-image: url({{ site.image}});position: relative;">
-                <div class="vk-background-overlay vk-background-black-1 _80"></div>
-                <div class="container">
+
+<!--./vk-counter-section-->
+ <!-- /.vk-image-slider-element -->
+<div class="vk-image-slider-style-1 list-item">
+    <div class="container">
+        <div class="text-center vk-space medium">
+            <h2 class="vk-heading vk-heading-line vk-heading-line-center" style="padding:0px; margin:0px;">
+                 <span>
+                    <span class="vk-text-color-yellow-1">NOS</span>
+                    REALISATIONS
+                </span>
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="row">
                     <div class="row">
-
-                        <div class="col-md-6 col-sm-12">
-
-                            <div class="vk-counter vk-counter-dark vk-counter-inline first-child">
-                                <i class="flaticon flaticon-ruler-and-pencil"></i>
-                                <ul class="content">
-                                    <li class="number-count" data-to="250">250</li>
-                                    <li class="title text-uppercase">vehicules</li>
-                                </ul>
-                            </div>
-                            <!--./vk-counter-->
-
-                        </div>
-
-                        <div class="col-md-6 col-sm-12">
-
-                            <div class="vk-counter vk-counter-dark vk-counter-inline">
-                                <i class="flaticon flaticon-worker-1"></i>
-                                <ul class="content">
-                                    <li class="number-count" data-to="23">23</li>
-                                    <li class="title text-uppercase">partenaires</li>
-                                </ul>
-                            </div>
-                            <!--./vk-counter-->
-
-                        </div>
-
-                        
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container -->
-            </div>
-            <!--./vk-counter-section-->
-             <!-- /.vk-image-slider-element -->
-            <div class="vk-image-slider-style-1 list-item">
-                <div class="container">
-                    <div class="text-center vk-space medium">
-                        <h2 class="vk-heading vk-heading-line vk-heading-line-center" style="padding:0px; margin:0px;">
-                             <span>
-                                <span class="vk-text-color-yellow-1">NOS</span>
-                                REALISATIONS
-                            </span>
-                        </h2>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="row">
-                                <div class="row">
-                                    <div class="vk-slider vk-slick-slider vk-slider-center" data-slick='{"slidesToShow": 3, "centerMode": true}'>
-                                    {% for realisation in site.realisations %}
-                                        <div class="item col-md-3">
-                                            <div class="vk-img-frame">
-                                                <a href="{{ realisation.image }}" class="vk-img" data-lightbox="image-slide-0">
-                                                    <img src="{{ realisation.image }}" alt="">
-                                                </a>
-                                            </div>
-                                            <ul class="content">
-                                                <li class="title">{{ realisation.title }}</li>
-                                                <li class="position">{{ realisation.services }}</li>
-                                            </ul>
-                                        </div>
-
-                                    {% endfor %}   
-
-                                    </div>
-                                    <!--./vk-slider-->
+                        <div class="vk-slider vk-slick-slider vk-slider-center" data-slick='{"slidesToShow": 3, "centerMode": true}'>
+                        {% for realisation in site.realisations %}
+                            <div class="item col-md-3">
+                                <div class="vk-img-frame">
+                                    <a href="{{ realisation.image }}" class="vk-img" data-lightbox="image-slide-0">
+                                        <img src="{{ realisation.image }}" alt="">
+                                    </a>
                                 </div>
-                                <!-- /.row -->
+                                
                             </div>
-                            <!-- /.row -->
+
+                        {% endfor %}   
+
                         </div>
-                        <!-- /.col-md-10 col-md-offset-1 -->
+                        <!--./vk-slider-->
                     </div>
                     <!-- /.row -->
                 </div>
-                <!-- /.container -->
+                <!-- /.row -->
             </div>
-            <!-- /.vk-image-slider-style-1 -->
-            <!-- /.vk-our-project-section -->
+            <!-- /.col-md-10 col-md-offset-1 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.vk-image-slider-style-1 -->
+<!-- /.vk-our-project-section -->

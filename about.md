@@ -1,5 +1,5 @@
 ---
-title: About
+title: Presentation
 permalink: "/about/"
 layout: about
 ---

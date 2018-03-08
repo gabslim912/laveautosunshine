@@ -7,6 +7,6 @@ layout: service
 image: "/uploads/2018/02/28/service.jpg"
 logo: ''
 ---
-_Faites nous confiance et confiez nous vos voitures professionnels . Concessionnaires ? Véhicule de service ? Camion de livraison ? Notre équipe de valets se déplace aussi là ou votre flotte de véhicules se trouve , les nettoie  et les ramène , évitant à vos employés de devoir passer par un lave-auto durant leurs heures de travail_ _ou juste vous sauver du temps . Ils pourront se concentrer sur leurs tâches quotidiennes._
+Faites nous confiance et confiez nous vos voitures professionnels . Concessionnaires ? Véhicule de service ? Camion de livraison ? Notre équipe de valets se déplace aussi là ou votre flotte de véhicules se trouve , les nettoie  et les ramène , évitant à vos employés de devoir passer par un lave-auto durant leurs heures de travail ou juste vous sauver du temps. Ils pourront se concentrer sur leurs tâches quotidiennes.
 
-_De plus, vous serez éligible à un prix réduit selon la quantité de véhicules et la fréquence à laquelle vous utilisez nos services.N'hésitez pas nous joindre en tout temps ou visiter notre site web  pour plus détails._
+De plus, vous serez éligible à un prix réduit selon la quantité de véhicules et la fréquence à laquelle vous utilisez nos services.N'hésitez pas nous joindre en tout temps ou visiter notre site web  pour plus détails.
