@@ -62,7 +62,9 @@
 
     </section>
     <!--./content-->
-     <!-- /.vk-image-slider-element -->
+     <!-- /.vk-image-slider-element -
+{% assign realisations = site.realisations | where:"services", page.title  %}
+{% if realisations != empty %}
 <div class="vk-image-slider-style-1 list-item">
     <div class="container">
         <div class="text-center vk-space medium">
@@ -79,7 +81,8 @@
                 <div class="row">
                     <div class="row">
                         <div class="vk-slider vk-slick-slider vk-slider-center" data-slick='{"slidesToShow": 3, "centerMode": true}'>
-                        {% for realisation in page.realisations %}
+                        {% assign realisations = site.realisations | where:"services", page.title  %}
+                        {% for realisation in realisations %}
                             <div class="item col-md-3">
                                 <div class="vk-img-frame">
                                     <a href="{{ realisation.image }}" class="vk-img" data-lightbox="image-slide-0">
@@ -88,21 +91,21 @@
                                 </div>
                                 
                             </div>
-
                         {% endfor %}   
 
                         </div>
-                        <!--./vk-slider-->
+                       
                     </div>
-                    <!-- /.row -->
+                    <!-- /.row --
                 </div>
-                <!-- /.row -->
+                <!-- /.row --
             </div>
-            <!-- /.col-md-10 col-md-offset-1 -->
+            <!-- /.col-md-10 col-md-offset-1 --
         </div>
-        <!-- /.row -->
+        <!-- /.row --
     </div>
-    <!-- /.container -->
+    <!-- /.container --
 </div>
+{% endif %}
 <!-- /.vk-image-slider-style-1 -->
 <!-- /.vk-our-project-section -->
