@@ -1,10 +1,9 @@
 ---
 title: Reservation
-permalink: "/reservation/"
 layout: reservation
 ---
 
- <section class="vk-content" class="reservation">
+ <section class="vk-content reservation">
     <div class="vk-banner" style="background-image: url({{ site.image}}); min-height: 100px; height:200px;" >
         <div class="vk-background-overlay vk-background-black-1 _80"></div>
         <div class="container wrapper">
@@ -37,11 +36,18 @@ layout: reservation
                 <div class="row">
                     <div class="col-md-9 left-content">
                         <h4 class="vk-heading text-uppercase">RESERVEZ DES MAINTENANT</h4>
-                        <div class="vk-contact-form">
+                        <form class="vk-contact-form" id="reservation" action="?" method="POST" novalidate="novalidate"/>
+
+                            <input type="hidden" name="_subject" value="Contact">
+                            <input type="hidden" name="_format" value="plain">
+                            <input type="hidden" name="_language" value="fr">
+                            <input type="text" name="_gotcha" style="display:none">
+
                             <div class="user-info">
                                 <div class="form-group">
                                     <i class="fa fa-user"></i>
-                                    <input type="text" name="name" placeholder="Nom *" class="form-control">
+                                    <input type="text" name="name" placeholder="Nom *" class="form-control" required>
+                                    <p class="error">Veuillez entrer votre nom.</p>
                                 </div>
                                 <div class="form-group">
                                     <i class="fa fa-phone"></i>
@@ -49,58 +55,69 @@ layout: reservation
                                 </div>
                                 <div class="form-group">
                                     <i class="fa fa-envelope"></i>
-                                    <input type="email" name="email" placeholder="Email *" class="form-control">
+                                    <input type="email" name="email" placeholder="Email *" class="form-control" required>
+                                    <p class="error">Veuillez entrer votre email.</p>
                                 </div>
                                 <div class="form-group">
                                     <i class="fa fa-car"></i>
                                     
-                                    <select name="type_vehicule" class="form-control"> 
-                                        <option value="" selected>- Type du vehicule -</option>
-                                        <option>Berline</option>
-                                        <option>VAN/VUS</option>
-                                        <option>Pick-Up/Camion</option>
-                                        <option>Moto</option>
-                                        <option>Autres</option>
+                                    <select name="type_vehicule" class="form-control" required> 
+                                        <option value="" selected>Type du vehicule *</option>
+                                        <option value="Berline">Berline</option>
+                                        <option value="VAN/VUS">VAN/VUS</option>
+                                        <option value="Pick-Up/Camion">Pick-Up/Camion</option>
+                                        <option value="Moto">Moto</option>
+                                        <option value="Autres">Autres</option>
                                     </select>
+
+                                    <p class="error">Veuillez entrer le type du véhicule.</p>
                                     
                                 </div>
                                 <div class="form-group">
-                                    <i class="fa fa-car"></i>
+                                    <i class="fa fa-tint"></i>
                                     
-                                    <select name="service_demande" class="form-control"> 
-                                        <option value="" selected>- Service demandé -</option>
+                                    <select name="service_demande" class="form-control" required> 
+                                        <option value="" selected>Service demandé *</option>
                                         {% for service in site.services %}
-                                            <option value="{{ servic.title | escape }}">{{ service.title }}</option>
+                                            <option value="{{ service.title | escape }}">{{ service.title }}</option>
                                         {% endfor %}
                                     </select>
+
+                                    <p class="error">Veuillez entrer le service demandé.</p>
                                     
                                 </div>
-                                <label for="date">Date</label> 
+                                <label for="date">Date *</label> 
                                 <div class="form-group">
                                     <i class="fa fa-calendar"></i>
-                                    <input type="date" name="date" id="date" placeholder="Date de reservation" class="form-control">
+                                    <input type="date" name="date" id="date" placeholder="Date de reservation" class="form-control" required>
+                                    <p class="error">Veuillez entrer la date.</p>
                                 </div>
-                                <label for="heure">Heure</label> 
+                                <label for="heure">Heure *</label> 
                                 <div class="form-group">
                                     <i class="fa fa-clock-o"></i>
-                                    <input type="time" name="time" id="heure" placeholder="heure de reservation" class="form-control">
+                                    <input type="time" name="time" id="heure" placeholder="heure de reservation" class="form-control" required>
+                                    <p class="error">Veuillez entrer l'heure.</p>
                                 </div>
                             </div>
                             <!-- /.user-info -->
 
                             <div class="message-content" >
                                 <div class="form-group">
-                                    <textarea name="content" style="height: 475px" placeholder="Veuillez décrire le service demandé" class="form-control"></textarea>
+                                    <textarea name="content" style="height: 520px" placeholder="Veuillez décrire le service demandé" class="form-control" required></textarea>
+                                    <p class="error">Veuillez entrer votre message.</p>
                                 </div>
                             </div>
                             <!-- /.message-content -->
 
                             <div class="vk-buttons">
-                                <button class="vk-btn vk-btn-default vk-btn-l vk-fullwidth">
+                                <button class="vk-btn vk-btn-default vk-btn-l vk-fullwidth" type="submit">
                                     <i class="fa fa-paper-plane"></i>RESERVEZ MAINTENANT
                                 </button>
                             </div>
-                        </div>
+
+                            <p class="status__failure text-error" style="display: none;">Une erreur s'est produite. Veuillez réessayer.</p>
+                            <p class="status__success text-success" style="display: none;">Votre message a été envoyé!</p>
+                        </form>
                     </div>
                     <!-- ./left-->
                     <div class="col-md-3 right-content">
@@ -109,7 +126,7 @@ layout: reservation
                             <ul class="vk-list vk-office">
                                 <li><i class="fa fa-map-marker"></i>{{ site.adresse}}</li>
 
-                                <li><i class="fa fa-envelope"></i><a href="mailto:email1@domain.com">{{ site.email }}</a></li>
+                                <li><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 
                                 <li><i class="fa fa-phone"></i>{{ site.tel }}</li>
 

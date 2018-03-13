@@ -43,9 +43,19 @@ table.tarifs{
 }
 
 .reservation{
-	.vk-contact-form select {
-		min-height: 50px;
-		padding-left: 55px;
+	.vk-contact-form {
+		p.error{
+			display: none;
+		}
+		select {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+		}
+		.status__failure,
+		.status__success{
+			padding-top: 20px;
+		}
 	}
 }
 
