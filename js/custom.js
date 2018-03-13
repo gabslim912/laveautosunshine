@@ -9,8 +9,7 @@
  */
 
 $(function(){
-    $(document).on('submit', '#reservation', function(event){
-      console.log('form');
+    $(document).on('submit', '#reservation, #contact', function(event){
         event.preventDefault();
       
         var errors = false;
