@@ -1,6 +1,8 @@
 ---
 ---
-.tarifs{tbody tr {
+
+table.tarifs{
+	tbody tr {
    		th,td{
 		       vertical-align: middle;
 		       text-align:center;
@@ -12,9 +14,39 @@
        	td p{
        		margin-bottom: 0px;
        	}
-
 		     
+	}
+}
+
+.darkness{ background-color: #2e3841; }
+
+.vk-img-frame img {
+    width: 300px;
+    height: auto;
+}
+
+.realisations{
+	margin-bottom: 60px;
+	.vk-img-frame {
+		width: 100%;
+		padding-top: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 0 !important;
+		img{
+			position: absolute;
+			visibility: hidden;
+			opacity: 0;
 		}
 	}
+}
 
-.darkness{background-color: #2e3841;}
+.reservation{
+	.vk-contact-form select {
+		min-height: 50px;
+		padding-left: 55px;
+	}
+}
+
+

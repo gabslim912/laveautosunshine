@@ -1,7 +1,7 @@
 
 <!--./vk-counter-section-->
  <!-- /.vk-image-slider-element -->
-<div class="vk-image-slider-style-1 list-item">
+<div class="realisations vk-image-slider-style-1 list-item">
     <div class="container">
         <div class="text-center vk-space medium">
             <h2 class="vk-heading vk-heading-line vk-heading-line-center" style="padding:0px; margin:0px;">
@@ -19,7 +19,7 @@
                         <div class="vk-slider vk-slick-slider vk-slider-center" data-slick='{"slidesToShow": 3, "centerMode": true}'>
                         {% for realisation in site.realisations %}
                             <div class="item col-md-3">
-                                <div class="vk-img-frame">
+                                <div class="vk-img-frame" style="background-image: url({{ realisation.image }});">
                                     <a href="{{ realisation.image }}" class="vk-img" data-lightbox="image-slide-0">
                                         <img src="{{ realisation.image }}" alt="">
                                     </a>
