@@ -11,6 +11,9 @@ collections:
   services:
     title: services
     output: true
+  reviews:
+    title: reviews
+    output: true
   sliders:
     title: sliders
     output: true
