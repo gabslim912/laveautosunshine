@@ -1,4 +1,6 @@
 ---
+pages:
+- _reviews/philippe-nadeau.md
 hide_body: false
 fields:
 - type: text
@@ -15,3 +17,6 @@ fields:
   name: image
   label: Image
   description: Photo de profil
+- type: datetime
+  name: date
+  label: Date
