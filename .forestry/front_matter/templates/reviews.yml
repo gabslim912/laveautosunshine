@@ -1,0 +1,17 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  description: 'Prenom et Nom '
+  config:
+    required: true
+- type: number
+  name: note
+  label: Note
+  description: Note sur 5
+- type: file
+  name: image
+  label: Image
+  description: Photo de profil
