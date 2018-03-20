@@ -1,0 +1,25 @@
+---
+pages:
+- _reviews/michael-di-biase.md
+- _reviews/valeriu-oprea.md
+- _reviews/lucien-audet.md
+- _reviews/philippe-nadeau.md
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  description: 'Prenom et Nom '
+  config:
+    required: true
+- type: number
+  name: note
+  label: Note
+  description: Note sur 5
+- type: file
+  name: image
+  label: Image
+  description: Photo de profil
+- type: datetime
+  name: date
+  label: Date
