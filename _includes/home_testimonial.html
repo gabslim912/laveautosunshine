@@ -73,7 +73,11 @@
                                     <div class="avatar">
                                         <div class="vk-img-frame">
                                             <a href="#" class="vk-img">
+                                            {% if review.image != empty %}
                                                 <img src="{{ review.image }}" alt="">
+                                            {% else %}
+                                                <img src="/images/profile.jpg" alt="">
+                                            {% endif %}
                                             </a>
                                         </div>
                                     </div>
