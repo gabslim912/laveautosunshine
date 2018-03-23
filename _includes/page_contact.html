@@ -1,4 +1,4 @@
- <section class="vk-content">
+ <section class="vk-content contact">
         <div class="vk-banner" style="background-image: url({{ site.image}}); min-height: 100px; height:200px;" >
             <div class="vk-background-overlay vk-background-black-1 _80"></div>
             <div class="container wrapper">
@@ -30,11 +30,18 @@
                     <div class="row">
                         <div class="col-md-9 left-content">
                             <h4 class="vk-heading text-uppercase">CONTACTEZ-NOUS</h4>
-                            <div class="vk-contact-form">
+                            <form class="vk-contact-form" id="contact" action="?" method="POST"/>
+
+                                <input type="hidden" name="_subject" value="Contact">
+                                <input type="hidden" name="_format" value="plain">
+                                <input type="hidden" name="_language" value="fr">
+                                <input type="text" name="_gotcha" style="display:none">
+
                                 <div class="user-info">
                                     <div class="form-group">
                                         <i class="fa fa-user"></i>
-                                        <input type="text" name="name" placeholder="Nom *" class="form-control">
+                                        <input type="text" name="name" placeholder="Nom *" class="form-control" required>
+                                        <p class="error">Veuillez entrer votre nom.</p>
                                     </div>
                                     <div class="form-group">
                                         <i class="fa fa-phone"></i>
@@ -42,28 +49,34 @@
                                     </div>
                                     <div class="form-group">
                                         <i class="fa fa-envelope"></i>
-                                        <input type="email" name="email" placeholder="Email *" class="form-control">
+                                        <input type="email" name="email" placeholder="Email *" class="form-control" required>
+                                        <p class="error">Veuillez entrer votre email.</p>
                                     </div>
                                     <div class="form-group">
                                         <i class="fa fa-pencil-square-o"></i>
                                         <input type="text" name="subject" placeholder="Sujet" class="form-control">
                                     </div>
+                                    
                                 </div>
                                 <!-- /.user-info -->
 
-                                <div class="message-content">
+                                <div class="message-content" >
                                     <div class="form-group">
-                                        <textarea name="content" placeholder="Message" class="form-control"></textarea>
+                                        <textarea name="content" style="height: 260px" placeholder="Veuillez décrire le service demandé" class="form-control" required></textarea>
+                                        <p class="error">Veuillez entrer votre message.</p>
                                     </div>
                                 </div>
                                 <!-- /.message-content -->
 
                                 <div class="vk-buttons">
-                                    <button class="vk-btn vk-btn-default vk-btn-l vk-fullwidth">
+                                    <button class="vk-btn vk-btn-default vk-btn-l vk-fullwidth" type="submit">
                                         <i class="fa fa-paper-plane"></i>ENVOYER
                                     </button>
                                 </div>
-                            </div>
+
+                                <p class="status__failure text-error" style="display: none;">Une erreur s'est produite. Veuillez réessayer.</p>
+                                <p class="status__success text-success" style="display: none;">Votre message a été envoyé!</p>
+                            </form>
                         </div>
                         <!-- ./left-->
 
