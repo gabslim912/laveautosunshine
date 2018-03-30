@@ -2,20 +2,11 @@
 title: LAVE AUTO SUNSHINE
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
   services:
     title: services
     output: true
   reviews:
     title: reviews
-    output: true
-  sliders:
-    title: sliders
     output: true
   realisations:
     title: realisations
