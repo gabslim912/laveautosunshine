@@ -1,9 +1,49 @@
-/* Theme Name: The Project - Responsive Website Template
-Author:HtmlCoder
-Author URI:http://www.htmlcoder.me
-Author e-mail:htmlcoder.me@gmail.com
-Version:1.2.0
-Created:December 2014
-License URI:http://support.wrapbootstrap.com/
-File Description: Place here your custom CSS styles
-*/
+table.tarifs tbody tr th, table.tarifs tbody tr td {
+  vertical-align: middle;
+  text-align: center; }
+table.tarifs tbody tr th p {
+  margin-bottom: 0px;
+  font-size: 18px; }
+table.tarifs tbody tr td p {
+  margin-bottom: 0px; }
+
+.darkness {
+  background-color: #2e3841; }
+
+.vk-img-frame img {
+  width: 100%;
+  height: auto; }
+
+.realisations {
+  margin-bottom: 60px; }
+  .realisations .vk-img-frame {
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 !important; }
+    .realisations .vk-img-frame img {
+      position: absolute;
+      visibility: hidden;
+      opacity: 0; }
+
+.reservation .vk-contact-form p.error {
+  display: none; }
+.reservation .vk-contact-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+.reservation .vk-contact-form .status__failure,
+.reservation .vk-contact-form .status__success {
+  padding-top: 20px; }
+
+.contact .vk-contact-form p.error {
+  display: none; }
+.contact .vk-contact-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+.contact .vk-contact-form .status__failure,
+.contact .vk-contact-form .status__success {
+  padding-top: 20px; }
