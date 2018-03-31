@@ -9,4 +9,4 @@ activities: Votre voiture est nettoyée minutieusement, l'aspirateur est passée
   les fenêtres lavées et il n'y aura plus aucune poussière.
 logo: ''
 ---
-_Votre voiture est nettoyée minutieusement, l'aspirateur est passée partout, les fenêtres lavées et il n'y aura plus aucune poussière. Nous offrons differents types de shampooing et de polissage selon vos besoins. Nous lavons votre voiture avec les meilleurs produits sur le marché pour un résultat exceptionnel autant à l'intérieur qu'à l'extérieur ._
+_Votre voiture est nettoyée minutieusement, l'aspirateur est passée partout, les fenêtres lavées et il n'y aura plus aucune poussière. Nous offrons differents types de shampooing et de polissage selon vos besoins. Nous lavons votre voiture avec les meilleurs produits sur le marché pour un résultat exceptionnel autant à l'intérieur qu'à l'extérieur._
