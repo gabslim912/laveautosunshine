@@ -13,36 +13,24 @@
 <div class="main-wrapper">
 
     {% include header1.html %}
-    <!--./vk-header-->
-    <!--./vk-header-->
 
-    <section class="vk-content">
-        <div class="vk-home vk-home-slider">
-            
-            {% include slider1.html %}
-            
-            
+    {% assign page_slug = page.title | slugify %}
 
+    <section class="vk-content {{ page_slug }}">
 
-            {% include home_services.html %}
-            
-            
-
-            {% include home_contact.html %}
+        {% comment %}
+        Afficher le breadcrumb sur toutes les pages sauf accueil
+        {% endcomment %}
+        {% if page_slug != 'accueil' %}
+            {% include breadcrumbs.html %}
+        {% endif %}
 
 
-            {% include home_ourteam.html %}
-            <!--./vk-join-our-team-->
-
-            {% include home_testimonial.html %}
-          
-            
-            
-        </div>
-        <!--./home-->
+        {{ content }}
 
     </section>
     <!--./content-->
+
 
     {% include footer.html %}
 </body>
