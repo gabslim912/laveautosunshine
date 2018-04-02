@@ -31,7 +31,7 @@ pages:
 - _realisations/03.md
 - _realisations/02.md
 - _realisations/01.md
-hide_body: false
+hide_body: true
 fields:
 - type: datetime
   name: date
@@ -63,4 +63,4 @@ fields:
     - Vitres
   label: services
   description: Sélectionnez le service correspondant
-  default: froid & climatisation
+  default: Lavage Intérieur / Extérieur
