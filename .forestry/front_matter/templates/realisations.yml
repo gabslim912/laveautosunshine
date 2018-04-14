@@ -32,6 +32,7 @@ pages:
 - _realisations/02.md
 - _realisations/01.md
 hide_body: true
+is_partial: false
 fields:
 - type: datetime
   name: date
