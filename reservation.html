@@ -1,8 +1,7 @@
 ---
-title: Reservation
+title: Réservation
 layout: default
 ---
-
 <div class="vk-page vk-page-contact">
     <div class="container">
         
@@ -12,8 +11,8 @@ layout: default
         <br>
             <div class="row">
                 <div class="col-md-9 left-content">
-                    <h4 class="vk-heading text-uppercase">RÉSERVEZ DES MAINTENANT</h4>
-                    <form class="vk-contact-form" id="reservation" action="?" method="POST"/>
+                    <h4 class="vk-heading text-uppercase">RÉSERVEZ DÈS MAINTENANT</h4>
+                    <form class="vk-contact-form" id="reservation" action="?" method="POST">
 
                         <input type="hidden" name="_subject" value="Contact">
                         <input type="hidden" name="_format" value="plain">
@@ -23,7 +22,7 @@ layout: default
                         <div class="user-info">
                             <div class="form-group">
                                 <i class="fa fa-user"></i>
-                                <input type="text" name="name" placeholder="Nom *" class="form-control" required>
+                                <input type="text" name="name" placeholder="Nom *" class="form-control" required="">
                                 <p class="error">Veuillez entrer votre nom.</p>
                             </div>
                             <div class="form-group">
@@ -32,14 +31,14 @@ layout: default
                             </div>
                             <div class="form-group">
                                 <i class="fa fa-envelope"></i>
-                                <input type="email" name="email" placeholder="Email *" class="form-control" required>
+                                <input type="email" name="email" placeholder="Email *" class="form-control" required="">
                                 <p class="error">Veuillez entrer votre email.</p>
                             </div>
                             <div class="form-group">
                                 <i class="fa fa-car"></i>
                                 
-                                <select name="type_vehicule" class="form-control" required> 
-                                    <option value="" selected>Type du vehicule *</option>
+                                <select name="type_vehicule" class="form-control" required=""> 
+                                    <option value="" selected="">Type du vehicule *</option>
                                     <option value="Berline">Berline</option>
                                     <option value="VAN/VUS">VAN/VUS</option>
                                     <option value="Pick-Up/Camion">Pick-Up/Camion</option>
@@ -53,8 +52,8 @@ layout: default
                             <div class="form-group">
                                 <i class="fa fa-tint"></i>
                                 
-                                <select name="service_demande" class="form-control" required> 
-                                    <option value="" selected>Service demandé *</option>
+                                <select name="service_demande" class="form-control" required=""> 
+                                    <option value="" selected="">Service demandé *</option>
                                     {% for service in site.services %}
                                         <option value="{{ service.title | escape }}">{{ service.title }}</option>
                                     {% endfor %}
@@ -67,21 +66,21 @@ layout: default
                             <label for="date">Date *</label> 
                                 <div class="form-group">
                                     <i class="fa fa-calendar"></i>
-                                    <input type="date" name="date" id="date" placeholder="Date de reservation *" class="form-control" required>
+                                    <input type="date" name="date" id="date" placeholder="Date de reservation *" class="form-control" required="">
                                     <p class="error">Veuillez entrer la date.</p>
                                 </div>
                                 <label for="heure">Heure *</label> 
                                 <div class="form-group">
                                     <i class="fa fa-clock-o"></i>
-                                    <input type="time" name="time" id="heure" placeholder="heure de reservation *" class="form-control" required>
+                                    <input type="time" name="time" id="heure" placeholder="heure de reservation *" class="form-control" required="">
                                     <p class="error">Veuillez entrer l'heure.</p>
                                 </div>
                         </div>
                         <!-- /.user-info -->
 
-                        <div class="message-content" >
+                        <div class="message-content">
                             <div class="form-group">
-                                <textarea name="content" style="height: 520px" placeholder="Veuillez décrire le service demandé" class="form-control" required></textarea>
+                                <textarea name="content" style="height: 520px" placeholder="Veuillez décrire le service demandé" class="form-control" required=""></textarea>
                                 <p class="error">Veuillez entrer votre message.</p>
                             </div>
                         </div>
