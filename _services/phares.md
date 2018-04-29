@@ -9,5 +9,5 @@ image: "/uploads/2018/02/28/phares.jpg"
 layout: service
 logo: ''
 ---
-_Vous ne voyez pas bien avec vous phares? Pas besoin de changer vos lumières!  
+_Vous ne voyez pas bien avec vos phares? Plus besoin de changer vos lumières!  
 Nous pouvons les restaurer avec notre polissage professionnel. Elles seront comme neuves!_
