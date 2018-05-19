@@ -1,9 +1,4 @@
 ---
-pages:
-- _reviews/michael-di-biase.md
-- _reviews/valeriu-oprea.md
-- _reviews/lucien-audet.md
-- _reviews/philippe-nadeau.md
 hide_body: false
 is_partial: false
 fields:
@@ -24,3 +19,8 @@ fields:
 - type: datetime
   name: date
   label: Date
+pages:
+- _reviews/michael-di-biase.md
+- _reviews/valeriu-oprea.md
+- _reviews/lucien-audet.md
+- _reviews/philippe-nadeau.md

@@ -2,10 +2,10 @@
 title: Lavage Intérieur / Extérieur
 date: 2018-02-24 00:00:00 +0000
 layout: service
-mini_desc: Votre voiture est nettoyée minutieusement, l'aspirateur est passée partout,
+mini_desc: Votre voiture est nettoyée minutieusement, l'aspirateur est passé partout,
   les fenêtres lavées et il n'y aura plus aucune poussière.
 image: "/uploads/2018/02/25/lavage.jpg"
-activities: Votre voiture est nettoyée minutieusement, l'aspirateur est passée partout,
+activities: Votre voiture est nettoyée minutieusement, l'aspirateur est passé partout,
   les fenêtres lavées et il n'y aura plus aucune poussière.
 logo: ''
 ---
