@@ -1,5 +1,5 @@
 ---
-title: Shampoing moteur/interieur
+title: Shampoing moteur/intérieur
 date: 2018-02-27 00:00:00 +0000
 layout: service
 mini_desc: Des produits et une équipe performante capable de faire un shampoing à
