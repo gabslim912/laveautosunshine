@@ -2,9 +2,20 @@
 <html lang="en">
 
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117224960-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117224960-2');
+</script>
+
+
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta charset="UTF-8" />
-    <title>Reservation - LAVE AUTO SUNSHINE</title>
+    <title>Réservation - LAVE AUTO SUNSHINE</title>
     <meta name="description" content="">
     <link rel="canonical" href="/reservation.html">
     
@@ -36,6 +47,7 @@
     <link href="/css/customize.css" rel="stylesheet" />
 
     <script src="/plugin/modernizr.js"></script>
+    
 </head>
 
   <!-- body classes:  -->
@@ -156,186 +168,194 @@
         </div>
         <!--./vk-header-top-->
     </header>
-    <!--./vk-header-->
-    <!--./vk-header-->
 
-     <section class="vk-content reservation">
-    <div class="vk-banner" style="background-image: url(/uploads/message.jpg); min-height: 100px; height:200px;" >
-        <div class="vk-background-overlay vk-background-black-1 _80"></div>
-        <div class="container wrapper">
-            <div class="page-heading">
-                Reservation
-            </div>
+    
+
+    <section class="vk-content réservation">
+
+        
+        
+            <div class="vk-banner" style="background-image: url(/uploads/message.jpg); min-height: 100px; height:200px;" >
+    <div class="vk-background-overlay vk-background-black-1 _80"></div>
+    <div class="container wrapper">
+        <div class="page-heading">
+            Réservation
         </div>
     </div>
-    <!-- ./vk-banner -->
+</div>
+<!-- ./vk-banner -->
 
-    <div class="vk-breadcrumb">
-        <nav class="container">
-            <ul>
-                <li><a href="/">accueil</a></li>
+<div class="vk-breadcrumb">
+    <nav class="container">
+        <ul>
+            <li><a href="/">accueil</a></li>
 
-                <li><a href="#">page</a></li>
+            <li><a href="#">page</a></li>
 
-                <li class="active">Réservation</li>
-            </ul>
-        </nav>
-    </div>
-    <!--./vk-breadcrumb-->    
-    <div class="vk-page vk-page-contact">
-        <div class="container">
-            
-            <!-- ./map-->
+            <li class="active">Réservation</li>
+        </ul>
+    </nav>
+</div>
+<!--./vk-breadcrumb-->  
+        
 
-            <div class="vk-contact">
-            <br>
-                <div class="row">
-                    <div class="col-md-9 left-content">
-                        <h4 class="vk-heading text-uppercase">RÉSERVEZ DES MAINTENANT</h4>
-                        <form class="vk-contact-form" id="reservation" action="?" method="POST"/>
 
-                            <input type="hidden" name="_subject" value="Contact">
-                            <input type="hidden" name="_format" value="plain">
-                            <input type="hidden" name="_language" value="fr">
-                            <input type="text" name="_gotcha" style="display:none">
+        <div class="vk-page vk-page-contact">
+    <div class="container">
+        
+        <!-- ./map-->
 
-                            <div class="user-info">
-                                <div class="form-group">
-                                    <i class="fa fa-user"></i>
-                                    <input type="text" name="name" placeholder="Nom *" class="form-control" required>
-                                    <p class="error">Veuillez entrer votre nom.</p>
-                                </div>
-                                <div class="form-group">
-                                    <i class="fa fa-phone"></i>
-                                    <input type="tel" name="tel" placeholder="Tel" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <i class="fa fa-envelope"></i>
-                                    <input type="email" name="email" placeholder="Email *" class="form-control" required>
-                                    <p class="error">Veuillez entrer votre email.</p>
-                                </div>
-                                <div class="form-group">
-                                    <i class="fa fa-car"></i>
+        <div class="vk-contact">
+        <br>
+            <div class="row">
+                <div class="col-md-9 left-content">
+                    <h4 class="vk-heading text-uppercase">RÉSERVEZ DÈS MAINTENANT</h4>
+                    <form class="vk-contact-form" id="reservation" action="?" method="POST">
+
+                        <input type="hidden" name="_subject" value="Contact">
+                        <input type="hidden" name="_format" value="plain">
+                        <input type="hidden" name="_language" value="fr">
+                        <input type="text" name="_gotcha" style="display:none">
+
+                        <div class="user-info">
+                            <div class="form-group">
+                                <i class="fa fa-user"></i>
+                                <input type="text" name="name" placeholder="Nom *" class="form-control" required="">
+                                <p class="error">Veuillez entrer votre nom.</p>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-phone"></i>
+                                <input type="tel" name="tel" placeholder="Tel" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-envelope"></i>
+                                <input type="email" name="email" placeholder="Email *" class="form-control" required="">
+                                <p class="error">Veuillez entrer votre email.</p>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-car"></i>
+                                
+                                <select name="type_vehicule" class="form-control" required=""> 
+                                    <option value="" selected="">Type du vehicule *</option>
+                                    <option value="Berline">Berline</option>
+                                    <option value="VAN/VUS">VAN/VUS</option>
+                                    <option value="Pick-Up/Camion">Pick-Up/Camion</option>
+                                    <option value="Moto">Moto</option>
+                                    <option value="Autres">Autres</option>
+                                </select>
+
+                                <p class="error">Veuillez entrer le type du véhicule.</p>
+                                
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-tint"></i>
+                                
+                                <select name="service_demande" class="form-control" required=""> 
+                                    <option value="" selected="">Service demandé *</option>
                                     
-                                    <select name="type_vehicule" class="form-control" required> 
-                                        <option value="" selected>Type du vehicule *</option>
-                                        <option value="Berline">Berline</option>
-                                        <option value="VAN/VUS">VAN/VUS</option>
-                                        <option value="Pick-Up/Camion">Pick-Up/Camion</option>
+                                        <option value="Lavage Intérieur / Extérieur">Lavage Intérieur / Extérieur</option>
+                                    
+                                        <option value="Vitres">Vitres</option>
+                                    
                                         <option value="Moto">Moto</option>
-                                        <option value="Autres">Autres</option>
-                                    </select>
-
-                                    <p class="error">Veuillez entrer le type du véhicule.</p>
                                     
-                                </div>
+                                        <option value="Lumières">Lumières</option>
+                                    
+                                        <option value="REMISE À NEUF">REMISE À NEUF</option>
+                                    
+                                        <option value="Services aux Entreprises">Services aux Entreprises</option>
+                                    
+                                        <option value="Shampoing moteur/interieur">Shampoing moteur/interieur</option>
+                                    
+                                        <option value="Tapis - Valise">Tapis - Valise</option>
+                                    
+                                </select>
+
+                                <p class="error">Veuillez entrer le service demandé.</p>
+                                
+                            </div>
+
+                            <label for="date">Date *</label> 
                                 <div class="form-group">
-                                    <i class="fa fa-tint"></i>
-                                    
-                                    <select name="service_demande" class="form-control" required> 
-                                        <option value="" selected>Service demandé *</option>
-                                        
-                                            <option value="Lavage Intérieur / Extérieur">Lavage Intérieur / Extérieur</option>
-                                        
-                                            <option value="Vitres">Vitres</option>
-                                        
-                                            <option value="Moto">Moto</option>
-                                        
-                                            <option value="Lumières">Lumières</option>
-                                        
-                                            <option value="REMISE À NEUF">REMISE À NEUF</option>
-                                        
-                                            <option value="Services aux Entreprises">Services aux Entreprises</option>
-                                        
-                                            <option value="Shampoing moteur/interieur">Shampoing moteur/interieur</option>
-                                        
-                                            <option value="Tapis - Valise">Tapis - Valise</option>
-                                        
-                                    </select>
-
-                                    <p class="error">Veuillez entrer le service demandé.</p>
-                                    
+                                    <i class="fa fa-calendar"></i>
+                                    <input type="date" name="date" id="date" placeholder="Date de reservation *" class="form-control" required="">
+                                    <p class="error">Veuillez entrer la date.</p>
                                 </div>
-
-                                <label for="date">Date *</label> 
-                                    <div class="form-group">
-                                        <i class="fa fa-calendar"></i>
-                                        <input type="date" name="date" id="date" placeholder="Date de reservation *" class="form-control" required>
-                                        <p class="error">Veuillez entrer la date.</p>
-                                    </div>
-                                    <label for="heure">Heure *</label> 
-                                    <div class="form-group">
-                                        <i class="fa fa-clock-o"></i>
-                                        <input type="time" name="time" id="heure" placeholder="heure de reservation *" class="form-control" required>
-                                        <p class="error">Veuillez entrer l'heure.</p>
-                                    </div>
-                            </div>
-                            <!-- /.user-info -->
-
-                            <div class="message-content" >
+                                <label for="heure">Heure *</label> 
                                 <div class="form-group">
-                                    <textarea name="content" style="height: 520px" placeholder="Veuillez décrire le service demandé" class="form-control" required></textarea>
-                                    <p class="error">Veuillez entrer votre message.</p>
+                                    <i class="fa fa-clock-o"></i>
+                                    <input type="time" name="time" id="heure" placeholder="heure de reservation *" class="form-control" required="">
+                                    <p class="error">Veuillez entrer l'heure.</p>
                                 </div>
-                            </div>
-                            <!-- /.message-content -->
-
-                            <div class="vk-buttons">
-                                <button class="vk-btn vk-btn-default vk-btn-l vk-fullwidth" type="submit">
-                                    <i class="fa fa-paper-plane"></i>RESERVEZ MAINTENANT
-                                </button>
-                            </div>
-
-                            <p class="status__failure text-error" style="display: none;">Une erreur s'est produite. Veuillez réessayer.</p>
-                            <p class="status__success text-success" style="display: none;">Votre message a été envoyé!</p>
-                        </form>
-                    </div>
-                    <!-- ./left-->
-                    <div class="col-md-3 right-content">
-                        <div class="contact-info">
-                            <h4 class="vk-heading text-uppercase">INFORMATIONS </h4>
-                            <ul class="vk-list vk-office">
-                                <li><i class="fa fa-map-marker"></i>5233 Montée Saint Hubert J3Y1V8 Saint Hubert, Québec</li>
-
-                                <li><i class="fa fa-envelope"></i><a href="mailto:laveautosunshine@gmail.com">laveautosunshine@gmail.com</a></li>
-
-                                <li><i class="fa fa-phone"></i>514-621-7506</li>
-
-                            </ul>
-                            
-                            <!--./vk-office-->
                         </div>
-                        <!-- /.contact-info -->
+                        <!-- /.user-info -->
 
-                        <div class="business-hours">
-                            <h5 class="vk-heading text-uppercase">HEURES D'OUVERTURE </h5>
-                            <ul class="vk-list vk-office">
-                                <li><i class="fa fa-calendar"></i>Lundi au Samedi</li>
-
-                                <li><i class="fa fa-clock-o"></i>9h30 - 21h00</li>
-
-                                <li><i class="fa fa-calendar"></i>Dimanche</li>
-
-                                <li><i class="fa fa-clock-o"></i>9h30 - 18h00</li>
-
-                            </ul>
-                            <!--./vk-office-->
+                        <div class="message-content">
+                            <div class="form-group">
+                                <textarea name="content" style="height: 520px" placeholder="Veuillez décrire le service demandé" class="form-control" required=""></textarea>
+                                <p class="error">Veuillez entrer votre message.</p>
+                            </div>
                         </div>
-                        <!-- /.business-hours -->
-                    </div>
-                    <!-- ./right-->
-                    
+                        <!-- /.message-content -->
+
+                        <div class="vk-buttons">
+                            <button class="vk-btn vk-btn-default vk-btn-l vk-fullwidth" type="submit">
+                                <i class="fa fa-paper-plane"></i>RESERVEZ MAINTENANT
+                            </button>
+                        </div>
+
+                        <p class="status__failure text-error" style="display: none;">Une erreur s'est produite. Veuillez réessayer.</p>
+                        <p class="status__success text-success" style="display: none;">Votre message a été envoyé!</p>
+                    </form>
                 </div>
-                <!--./row-->
+                <!-- ./left-->
+                <div class="col-md-3 right-content">
+                    <div class="contact-info">
+                        <h4 class="vk-heading text-uppercase">INFORMATIONS </h4>
+                        <ul class="vk-list vk-office">
+                            <li><i class="fa fa-map-marker"></i>5233 Montée Saint Hubert J3Y1V8 Saint Hubert, Québec</li>
+
+                            <li><i class="fa fa-envelope"></i><a href="mailto:laveautosunshine@gmail.com">laveautosunshine@gmail.com</a></li>
+
+                            <li><i class="fa fa-phone"></i>514-621-7506</li>
+
+                        </ul>
+                        
+                        <!--./vk-office-->
+                    </div>
+                    <!-- /.contact-info -->
+
+                    <div class="business-hours">
+                        <h5 class="vk-heading text-uppercase">HEURES D'OUVERTURE </h5>
+                        <ul class="vk-list vk-office">
+                            <li><i class="fa fa-calendar"></i>Lundi au Samedi</li>
+
+                            <li><i class="fa fa-clock-o"></i>9h30 - 21h00</li>
+
+                            <li><i class="fa fa-calendar"></i>Dimanche</li>
+
+                            <li><i class="fa fa-clock-o"></i>9h30 - 18h00</li>
+
+                        </ul>
+                        <!--./vk-office-->
+                    </div>
+                    <!-- /.business-hours -->
+                </div>
+                <!-- ./right-->
+                
             </div>
-            <!--./vk-contact-->
+            <!--./row-->
         </div>
-        <!--./container-->
-        <div class="vk-space x-medium"></div>
+        <!--./vk-contact-->
     </div>
-    <!--./vk-page-->
-</section>
-<!--./content-->
+    <!--./container-->
+    <div class="vk-space x-medium"></div>
+</div>
+<!--./vk-page-->
+
+    </section>
+    <!--./content-->
+
 
     <footer class="vk-footer">
         <div class="container">
@@ -405,6 +425,8 @@
 <!--./main-wrapper-->
 
 <!-- BEGIN: SCRIPT -->
+
+
 <script src="/plugin/jquery/jquery-2.0.2.min.js"></script>
 <script src="/plugin/plugin.min.js"></script>
 <script src="/plugin/main.js"></script>
