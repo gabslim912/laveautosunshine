@@ -28,22 +28,12 @@ table.tarifs tbody tr td p {
       visibility: hidden;
       opacity: 0; }
 
-.reservation .vk-contact-form p.error {
+.vk-contact-form p.error {
   display: none; }
-.reservation .vk-contact-form select {
+.vk-contact-form select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
-.reservation .vk-contact-form .status__failure,
-.reservation .vk-contact-form .status__success {
-  padding-top: 20px; }
-
-.contact .vk-contact-form p.error {
-  display: none; }
-.contact .vk-contact-form select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none; }
-.contact .vk-contact-form .status__failure,
-.contact .vk-contact-form .status__success {
+.vk-contact-form .status__failure,
+.vk-contact-form .status__success {
   padding-top: 20px; }
