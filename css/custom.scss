@@ -42,37 +42,18 @@ table.tarifs{
 	}
 }
 
-.reservation{
-	.vk-contact-form {
-		p.error{
-			display: none;
-		}
-		select {
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			appearance: none;
-		}
-		.status__failure,
-		.status__success{
-			padding-top: 20px;
-		}
+.vk-contact-form {
+	p.error{
+		display: none;
 	}
-}
-
-.contact{
-	.vk-contact-form {
-		p.error{
-			display: none;
-		}
-		select {
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			appearance: none;
-		}
-		.status__failure,
-		.status__success{
-			padding-top: 20px;
-		}
+	select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	.status__failure,
+	.status__success{
+		padding-top: 20px;
 	}
 }
 
