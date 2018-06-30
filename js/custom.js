@@ -45,22 +45,24 @@ $(function(){
         if (errors) {
           return false;
         }
+
+        $(form)[0].submit();
       
-        $.ajax({
-          url: 'https:' + '//formspree.io/' + 'laveautosunshine' + '@' + 'gmail' + '.' + 'com', 
-          method: 'POST',
-          data: $(form).serialize(),
-          success: function(data){
-            console.log('success', data);
-            $(form).find('.status__failure').slideUp();
-            $(form).find('.status__success').slideDown();
-            $(form)[0].reset();
-          },
-          error: function(data){
-            console.log('error', data);
-            $(form).find('.status__failure').slideDown();
-            $(form).find('.status__success').slideUp();
-          }
-        });
+        // $.ajax({
+        //   url: 'https:' + '//formspree.io/' + 'laveautosunshine' + '@' + 'gmail' + '.' + 'com', 
+        //   method: 'POST',
+        //   data: $(form).serialize(),
+        //   success: function(data){
+        //     console.log('success', data);
+        //     $(form).find('.status__failure').slideUp();
+        //     $(form).find('.status__success').slideDown();
+        //     $(form)[0].reset();
+        //   },
+        //   error: function(data){
+        //     console.log('error', data);
+        //     $(form).find('.status__failure').slideDown();
+        //     $(form).find('.status__success').slideUp();
+        //   }
+        // });
     });
 });
