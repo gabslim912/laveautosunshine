@@ -46,6 +46,7 @@ $(function(){
           return false;
         }
 
+        $(form).attr('action', 'https:' + '//formspree.io/' + 'laveautosunshine' + '@' + 'gmail' + '.' + 'com');
         $(form)[0].submit();
       
         // $.ajax({
