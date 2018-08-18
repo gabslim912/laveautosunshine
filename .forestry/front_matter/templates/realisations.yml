@@ -1,4 +1,5 @@
 ---
+label: Realisations
 hide_body: true
 is_partial: false
 fields:
@@ -34,34 +35,34 @@ fields:
   description: Sélectionnez le service correspondant
   default: Lavage Intérieur / Extérieur
 pages:
-- _realisations/19.md
-- _realisations/22.md
-- _realisations/01.md
-- _realisations/02.md
-- _realisations/04.md
-- _realisations/27.md
-- _realisations/17.md
-- _realisations/10.md
-- _realisations/07.md
-- _realisations/09.md
 - _realisations/20.md
+- _realisations/02.md
+- _realisations/01.md
 - _realisations/06.md
-- _realisations/13.md
-- _realisations/15.md
-- _realisations/16.md
-- _realisations/18.md
-- _realisations/24.md
-- _realisations/25.md
-- _realisations/28.md
-- _realisations/29.md
-- _realisations/30.md
-- _realisations/31.md
-- _realisations/32.md
-- _realisations/33.md
-- _realisations/21.md
-- _realisations/03.md
-- _realisations/08.md
-- _realisations/11.md
-- _realisations/12.md
-- _realisations/23.md
+- _realisations/17.md
+- _realisations/27.md
+- _realisations/04.md
 - _realisations/14.md
+- _realisations/23.md
+- _realisations/12.md
+- _realisations/11.md
+- _realisations/08.md
+- _realisations/03.md
+- _realisations/21.md
+- _realisations/33.md
+- _realisations/32.md
+- _realisations/31.md
+- _realisations/30.md
+- _realisations/29.md
+- _realisations/28.md
+- _realisations/25.md
+- _realisations/24.md
+- _realisations/22.md
+- _realisations/19.md
+- _realisations/18.md
+- _realisations/16.md
+- _realisations/15.md
+- _realisations/13.md
+- _realisations/10.md
+- _realisations/09.md
+- _realisations/07.md

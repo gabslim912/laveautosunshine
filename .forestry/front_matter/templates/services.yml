@@ -1,4 +1,5 @@
 ---
+label: Services
 hide_body: false
 is_partial: false
 fields:
@@ -42,11 +43,11 @@ fields:
   label: Logo
   description: Seconde image
 pages:
-- _services/interieur-exterieur.md
 - _services/vitres.md
 - _services/tapis-valise.md
-- _services/phares.md
-- _services/services-aux-entreprises.md
-- _services/remise-a-neuf.md
-- _services/moto.md
+- _services/interieur-exterieur.md
 - _services/shampooing-moteur-interieur.md
+- _services/moto.md
+- _services/remise-a-neuf.md
+- _services/services-aux-entreprises.md
+- _services/phares.md
