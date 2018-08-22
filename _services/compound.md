@@ -7,7 +7,7 @@ mini_desc: Pour une restauration de votre peinture ou pour enlever les égratign
 activities: Pour une restauration de votre peinture ou pour enlever les égratignures
   !!
 image: "/uploads/2018/03/07/c0fbd53a-62b8-4f3f-be9e-ce638308c654.jpg"
-logo: ''
+logo: "/uploads/2018/08/22/1100d3e4142d.jpg"
 
 ---
 Vous avez une carrosserie qui souffre des intempéries ou à de petites égratignures? Passez nous voir ou appelez nous.
