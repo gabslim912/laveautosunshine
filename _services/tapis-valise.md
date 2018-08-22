@@ -1,14 +1,17 @@
 ---
-title: Tapis - Valise
+title: Coupound-Polissage
 date: 2018-02-27 00:00:00 +0000
-mini_desc: Vous avez des taches difficiles à enlever sur vos tapis ou dans vos valises?
-  Nous avons tout pour les faire disparaître!
-activities: Vous avez des taches difficiles à enlever sur vos tapis ou dans vos valises?
-  Nous avons tout pour les faire disparaître!
-layout: service
-image: "/uploads/2018/02/28/tapis.jpg"
-logo: ''
----
-_Vous avez des taches difficiles à enlever sur vos tapis ou dans vos valises? Nous avons tout pour les faire disparaître! Vous serez ravis de les revoir comme neufs._
+mini_desc: |2
 
-_En plus de redonner à vos tapis un aspect neuf en faisant disparaître les taches et le calcium, un bon nettoyage de tapis d’auto sert également à prévenir la rouille sur la surface intérieure du plancher._
+  Votre carrosserie souffre des intempéries ou à de petites égratignures?
+activities: 'Votre carrosserie souffre des intempéries ou à de petites égratignures?
+
+'
+layout: service
+image: "/uploads/2018/03/07/c0fbd53a-62b8-4f3f-be9e-ce638308c654.jpg"
+logo: ''
+
+---
+Votre carrosserie souffre des intempéries ou à de petites égratignures?
+
+Nous disposons de produits d'entretien appropriés aux automobiles qui feront disparaître les petits outrages du temps.

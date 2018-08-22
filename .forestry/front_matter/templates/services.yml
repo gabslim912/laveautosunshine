@@ -43,9 +43,9 @@ fields:
   label: Logo
   description: Seconde image
 pages:
+- _services/tapis-valise.md
 - _services/compound.md
 - _services/vitres.md
-- _services/tapis-valise.md
 - _services/interieur-exterieur.md
 - _services/shampooing-moteur-interieur.md
 - _services/moto.md
