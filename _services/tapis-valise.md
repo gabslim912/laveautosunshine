@@ -12,6 +12,6 @@ image: "/uploads/2018/08/22/1100d3e4142d.jpg"
 logo: ''
 
 ---
-Votre carrosserie souffre des intempéries ou à de petites égratignures?
+_Votre carrosserie souffre des intempéries ou à de petites égratignures?_
 
-Nous disposons de produits d'entretien appropriés aux automobiles qui feront disparaître les petits outrages du temps.
+_Nous disposons de produits d'entretien appropriés aux automobiles qui feront disparaître les petits outrages du temps._
