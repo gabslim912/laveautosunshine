@@ -35,6 +35,7 @@ fields:
   description: Sélectionnez le service correspondant
   default: Lavage Intérieur / Extérieur
 pages:
+- _realisations/36.md
 - _realisations/35.md
 - _realisations/34.md
 - _realisations/20.md
