@@ -1,14 +1,15 @@
 ---
-title: Vitres
+title: Décontamination-Cire Professionelle
 date: 2018-02-24 00:00:00 +0000
-mini_desc: Notre traitement pour le verre est révolutionnaire grâce à nos produits
-  Aquapel ou Rain X.
-activities: 'Notre traitement pour le verre est révolutionnaire grâce à nos produits
-  Aquapel ou Rain X '
-image: "/uploads/2018/02/25/lav_vitre.jpg"
+mini_desc: La peinture de votre véhicule n'est plus aussi brillante ?? Notre Cire
+  la rendre éclatante
+activities: La peinture de votre véhicule n'est plus aussi brillante ?? Notre Cire
+  la rendre éclatante
+image: "/uploads/2018/08/22/2990_LAVE_AUTO_IWASH_005_offre.jpg"
 layout: service
 logo: ''
----
-_Nos produits **Aquapel** et **Rain X** sont révolutionnaires. Ils repoussent la pluie et facilite enlèvement de la glace de la neige et/ou de la boue!  Ils empêchent la pluie la neige et le verglas de pénétrer, améliorent sensiblement la visibilité par temps de pluie._
 
-Le produit Aquapel dure des mois, jusqu'à 6 fois plus longtemps que les autres produits de traitement du verre.
+---
+_La peinture de votre véhicule n'est plus aussi brillante ?? Ne vous inquiétez pas nous avons la solution pour vous._
+
+_Avec le produit adéquat, le bon équipement et une équipe de professionnels nous vous la rendrons toute_ 
