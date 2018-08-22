@@ -8,6 +8,5 @@ mini_desc: |-
 activities: " "
 image: "/uploads/2018/08/22/1100d3e4142d.jpg"
 logo: ''
-published: false
 
 ---
