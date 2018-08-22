@@ -44,7 +44,6 @@ fields:
   description: Seconde image
 pages:
 - _services/tapis-valise.md
-- _services/compound.md
 - _services/vitres.md
 - _services/interieur-exterieur.md
 - _services/shampooing-moteur-interieur.md
