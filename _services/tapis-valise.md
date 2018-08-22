@@ -8,7 +8,7 @@ activities: 'Votre carrosserie souffre des intempéries ou à de petites égrati
 
 '
 layout: service
-image: "/uploads/2018/03/07/c0fbd53a-62b8-4f3f-be9e-ce638308c654.jpg"
+image: "/uploads/2018/08/22/1100d3e4142d.jpg"
 logo: ''
 
 ---
