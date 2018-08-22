@@ -12,4 +12,4 @@ logo: ''
 ---
 _La peinture de votre véhicule n'est plus aussi brillante ?? Ne vous inquiétez pas nous avons la solution pour vous._
 
-_Avec le produit adéquat, le bon équipement et une équipe de professionnels nous vous la rendrons toute_ 
+_Avec le produit adéquat, le bon équipement et une équipe de professionnels nous vous la rendrons toute éclatante comme le jour de votre achat_
