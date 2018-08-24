@@ -8,6 +8,32 @@ image: "/uploads/2018/08/22/IMG_4021.jpg"
 logo: ''
 
 ---
-_C’est le retour du beau temps! Gardez votre Moto en parfait état! Relaxez-vous pendant que notre équipe s'occupe de maintenir l'éclat et le bon fonctionnement de votre moto !!!!_
+_Notre équipe s'occupe de maintenir l'éclat et le bon fonctionnement de votre moto !! Nous vous occupons aussi de polir votre Chrome pour toutes les motos Custom/Harley Davidson et tous les Choppers_
 
-_Vous ne serez pas déçus du résultat. Vous reprendrez la route avec un charme éclatant!! Nous vous occupons aussi de polir votre Chrome pour toutes les motos Custom/Harley Davidson et tous les Choppers_
+Forfaits :
+
+**_Cire : 75$_**
+
+* Lavage à la main
+* Décontamination de la peinture (Pâte d'argile)
+* Nettoyage du pare-brise 
+* Nettoyage des jantes
+* Cire protectrice haut de gamme *
+
+**_Polissage : 140$_**
+
+* Lavage à la main
+* Décontamination de la peinture (Pâte d’argile)
+* Restauration de l'eclat de la peinture
+* Cire protectrice haut de gamme*
+* Nettoyage du pare-brise
+* Nettoyage des jantes
+
+**_Compound : 180$_**
+
+* Lavage à la main
+* Décontamination de la peinture (Pâte d’argile)
+* Remise à neuf de la peinture *
+* Cire protectrice haut de gamme **
+* Nettoyage du pare-brise
+* Nettoyage des jantes
