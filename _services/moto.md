@@ -18,14 +18,14 @@ Forfaits :
 * Décontamination de la peinture (Pâte d'argile)
 * Nettoyage du pare-brise 
 * Nettoyage des jantes
-* Cire protectrice haut de gamme *
+* Cire protectrice haut de gamme
 
 **_Polissage : 140$_**
 
 * Lavage à la main
 * Décontamination de la peinture (Pâte d’argile)
 * Restauration de l'eclat de la peinture
-* Cire protectrice haut de gamme*
+* Cire protectrice haut de gamme
 * Nettoyage du pare-brise
 * Nettoyage des jantes
 
@@ -33,7 +33,7 @@ Forfaits :
 
 * Lavage à la main
 * Décontamination de la peinture (Pâte d’argile)
-* Remise à neuf de la peinture *
-* Cire protectrice haut de gamme **
+* Remise à neuf de la peinture
+* Cire protectrice haut de gamme
 * Nettoyage du pare-brise
 * Nettoyage des jantes
