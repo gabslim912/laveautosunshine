@@ -2,9 +2,9 @@
 title: Décontamination-Cire Professionelle
 date: 2018-02-24 00:00:00 +0000
 mini_desc: La peinture de votre véhicule n'est plus aussi brillante ?? Notre Cire
-  la rendre éclatante
+  la rendra éclatante
 activities: La peinture de votre véhicule n'est plus aussi brillante ?? Notre Cire
-  la rendre éclatante
+  la rendra éclatante
 image: "/uploads/2018/08/22/2990_LAVE_AUTO_IWASH_005_offre.jpg"
 layout: service
 logo: ''
