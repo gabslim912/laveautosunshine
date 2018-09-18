@@ -8,7 +8,7 @@ image: "/uploads/2018/08/22/IMG_4021.jpg"
 logo: ''
 
 ---
-_Notre équipe s'occupe de maintenir l'éclat et le bon fonctionnement de votre moto !! Nous vous occupons aussi de polir votre Chrome pour toutes les motos Custom/Harley Davidson et tous les Choppers_
+_Notre équipe s'occupe de maintenir l'éclat et le bon fonctionnement de votre moto !! Nous nous occupons aussi de votre Cuir et de polir votre Chrome pour toutes les motos Custom/Harley Davidson et tous les Choppers/Bobber_ 
 
 Forfaits :
 
@@ -16,7 +16,7 @@ Forfaits :
 
 * Lavage à la main
 * Décontamination de la peinture (Pâte d'argile)
-* Nettoyage du pare-brise 
+* Nettoyage du pare-brise
 * Nettoyage des jantes
 * Cire protectrice haut de gamme
 
