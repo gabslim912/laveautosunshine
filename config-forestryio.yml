@@ -1,0 +1,47 @@
+---
+title: LAVE AUTO SUNSHINE
+timezone: UTC
+collections:
+  services:
+    title: services
+    output: true
+  reviews:
+    title: reviews
+    output: true
+  realisations:
+    title: realisations
+    output: true
+email: laveautosunshine@gmail.com
+description: "<p class=\"text-justify\">Le lave-auto Sunshine  est une entreprise
+  jeune et  professionnelle, qui met à votre disposition des employés formés et compétents
+  qui sauront mettre leur talent en œuvre pour le bien de votre véhicule. Sunshine
+  est un lave-auto professionnel offrant un service de qualité et une gamme de produit
+  capable de maintenir le look ou de remettre votre véhicule à neuf. Nous nous assurons
+  toujours:</p> \n\t\t\t\t\t\t\t\t\t <ul class=\"list-icons\"> \n\t\t\t\t\t\t\t\t\t\t<li><i
+  class=\"icon-check-1\"></i> de la qualité des services rendus, </li> \n\t\t\t\t\t\t\t\t\t\t<li><i
+  class=\"icon-check-1\"></i> d’un service à la clientèle pointu,</li> \n\t\t\t\t\t\t\t\t\t\t<li><i
+  class=\"icon-check-1\"></i> du respect des échéanciers</li> \n\t\t\t\t\t\t\t\t\t\t<li><i
+  class=\"icon-check-1\"></i> et de la satisfaction de chacun de nos clients</li>
+  \n\t\t\t\t\t\t\t\t\t</ul> </br><p class=\"text-justify\">Un service de qualité à
+  des prix compétitifs durant toute l'année. Notre entreprise vous promet de maintenir
+  l'aspect esthétique de votre véhicule, satisfaction garantie. De plus, nous offrons
+  nos services tant aux particuliers qu’aux entreprises commerciales. </p>"
+baseurl: 
+url: 
+twitter_username: jekyllrb
+github_username: jekyll
+markdown: kramdown
+plugins:
+- jekyll-feed
+text: 'Le lave-auto Sunshine  est une entreprise jeune et  professionnelle,  qui met
+  à votre disposition des employés formés et compétents qui sauront mettre leur talent
+  en œuvre pour le bien de votre véhicule. Sunshine est un lave-auto professionnel
+  offrant un service de qualité et une gamme de produit capable de maintenir le look
+  ou de remettre votre véhicule à neuf. '
+tel: 514-621-7506
+adresse: 5233 Montée Saint Hubert J3Y1V8 Saint Hubert, Québec
+image: "/uploads/message.jpg"
+logoo: "/uploads/sunshine.png"
+imagemes: "/uploads/message.jpg"
+imageobj: "/uploads/objectifs.jpg"
+favicon: "/uploads/favicon.ico"
